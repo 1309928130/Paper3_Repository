@@ -1,23 +1,56 @@
-# Supplementary Material 2 - Sources of Figures
+## Supplementary Material 2 - Sources of Figures
 
-Below is an example of the LaTeX code for the table of figure sources:
-
-```latex
-\section*{Supplementary Material 2 - Sources of figures}
-
-\begin{xltabular}{\textwidth}{p{0.01\textwidth} p{0.42\textwidth} p{0.50\textwidth}} % adjust widths manually
-
-    \caption{Sources of Figures} 
-    \label{tab:figsources} \\
-    
-    \hline
-    \textbf{N} & \textbf{Figure and Caption} & \textbf{Source} \\
-    \hline
-    \endfirsthead
-    
-    \caption{Sources of Figures (continued)} \\
-    \hline
-    \textbf{N} & \textbf{Figure and Caption} & \textbf{Source} \\
-    \hline
-    \endhead
-
+| N   | Figure and Caption                                                                             | Source                                                                                                                                                           |
+| --- | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Overcrowding and emptiness in railway stations areas.                                          | Left - [163.com](https://www.163.com/dy/article/DLED9I020524TFU4.html); Right - [Sohu](https://www.sohu.com/a/386779398_640391)                                   |
+| 2   | A conceptual basic unit of passenger flow.                                                     | By authors                                                                                                                                                        |
+| 3   | The mechanism of overcrowding and emptiness in Beijing West railway station area.              | By authors                                                                                                                                                        |
+| 4   | Spatial relevance shown by an example case of Beijing West Railway Station.                    | Original photo sources: Left - [Meipian](https://www.meipian.cn/); Right - [Wikimedia](https://upload.wikimedia.org/wikipedia/commons/5/5b/Beijing_West_Railway_Station_20170506_124557.jpg). Drawings by authors  |
+| 5   | Temporal scales.                                                                               | By authors, inspired by \citep[p. 38, fig. 13]{dejongeWAYSStudyResearch2002}                                                                                      |
+| 6   | Spatial scales of station areas.                                                               | By authors                                                                                                                                                        |
+| 7   | Architectural and urban design proposals for Amsterdam Sloterdijk station.                    | Upper - \citep{triggianeseStationsNodesExploring2019}; Lower - \citep{andrianosNodePlaceNew2023}                                                                  |
+| 8   | This paper is part of a PhD project at the intersection of three topics.                       | By authors                                                                                                                                                        |
+| 9   | The process of developing design principles.                                                   | By authors                                                                                                                                                        |
+| 10  | The station at the district and building levels.                                               | By authors                                                                                                                                                        |
+| 11  | The configuration of the station.                                                              | By authors                                                                                                                                                        |
+| 12  | Data sources.                                                                                  | By authors                                                                                                                                                        |
+| 13  | An example of research by design.                                                              | By authors                                                                                                                                                        |
+| 14  | Sources of heuristics.                                                                         | By authors                                                                                                                                                        |
+| 15  | The design principles (patterns) within a network.                                             | By authors                                                                                                                                                        |
+| 16  | The design principles viewed from different perspectives.                                      | By authors                                                                                                                                                        |
+| 17  | Flexible use.                                                                                  | [stadsstranden.nl](https://www.stadsstranden.nl/paris-plages/)                                                                                                    |
+| 18  | Different general layouts of the station and city.                                             | \citep{qiAnalysisStationCitySynergetic2019}                                                                                                                       |
+| 19  | Set apart non-transport function.                                                              | [Santenco](https://www.santenco.nl/portfolio_page/stationsplein-oost/)                                                                                            |
+| 20  | Vibrate city environment by scattered mobility nodes.                                          | By authors                                                                                                                                                        |
+| 21  | Increase transport capacity by scattered mobility nodes.                                       | By authors                                                                                                                                                        |
+| 22  | Alignment between open spaces and main paths.                                                  | By authors                                                                                                                                                        |
+| 23  | Human-oriented spaces versus vehicle-oriented spaces.                                          | By authors                                                                                                                                                        |
+| 24  | The old and the new Rotterdam central stations.                                                | Upper-left - [Wikimedia](https://commons.wikimedia.org/wiki/File:Nieuw_Centraal_Station_in_Rotterdam_aangetast,_Bestanddeelnr_908-5455.jpg); Upper-right - [Internaat het Posthuis](https://internaathetposthuis.nl/raldus.html); Lower-left - [In de Buurt](https://indebuurt.nl/rotterdam/nieuws/salsa-doe-gratis-mee-met-deze-gigadans-voor-rotterdam-centraal~311821/); Lower-right - [MVSA Architects](https://mvsa-architects.com/en/news/nos-rotterdam-central-receives-a-score-of-8-and-is-the-most-popular-large-train-station/)  |
+| 25  | Connect with neighborhoods.                                                                    | By authors                                                                                                                                                        |
+| 26  | Smooth level changes by landscape design at the district level.                                | [The Paper](https://m.thepaper.cn/newsDetail_forward_5348462)                                                                                                     |
+| 27  | Smooth level changes by landscape design at the building level.                                | [UNStudio](https://www.unstudio.com/en/page/12109/arnhem-central-masterplan)                                                                                      |
+| 28  | Adaptive redundant spaces with path regulation.                                                | By authors                                                                                                                                                        |
+| 29  | Path regulation using reconfigurable elements.                                                 | By authors                                                                                                                                                        |
+| 30  | Programming considering the time dimension (for flexible use).                                 | By authors                                                                                                                                                        |
+| 31  | Shortcuts or optimizing paths.                                                                 | By authors                                                                                                                                                        |
+| 32  | A changeable building - the Shed.                                                              | [Architectural Digest](https://www.architecturaldigest.com/story/the-shed-finally-opens-new-york-city-hudson-yards)                                               |
+| 33  | Changeable building components.                                                                | By authors                                                                                                                                                        |
+| 34  | Add installations and facilities.                                                              | [Flickr](https://www.flickr.com/photos/87453322@N00/7561351848)                                                                                                   |
+| 35  | Reconfigurable elements.                                                                       | \citep{iversStagingUrbanLandscapes2018}                                                                                                                           |
+| 36  | Reconfigurable spaces.                                                                         | Left - [Shutterstock](https://www.shutterstock.com/image-photo/view-delft-market-square-nieuwe-kerk-1206141775); Right - [Pinterest](https://nl.pinterest.com/pin/546342998538754823/)                    |
+| 37  | Redundant spaces or setting apart bottlenecks at the district level.                           | By authors                                                                                                                                                        |
+| 38  | Redundant spaces or setting apart bottlenecks at the building level.                           | By authors                                                                                                                                                        |
+| 39  | Position city passages (at the district level).                                                | By authors                                                                                                                                                        |
+| 40  | The city passages (at the building level).                                                     | [Amsterdam VIP Tours](https://www.amsterdam-viptours.com/blog/cuypers-passage/)                                                                                   |
+| 41  | Barriers that hinder the flow at the district level.                                           | By authors                                                                                                                                                        |
+| 42  | Reduce barriers to ease flow at the building level.                                            | By authors                                                                                                                                                        |
+| 43  | Stairs as stages or seats.                                                                     | [Architectenweb](https://architectenweb.nl/nieuws/artikel.aspx?id=43948)                                                                                          |
+| 44  | Two city axes were planned during the redevelopment of the Utrecht Central Station area.       | [Structuurplan, Stationsgebied Utrecht, December 2006](https://www.bouwpututrecht.nl/wp-content/uploads/2015/12/12A-OO-Structuurplan-Stationsgebied-2006.pdf)      |
+| 45  | Station typology implied by the cases.                                                         | By authors                                                                                                                                                        |
+| 46  | The Utrecht Central Station area - 250m vs 500m.                                               | By authors                                                                                                                                                        |
+| 47  | The Rotterdam Central Station area - 250m vs 500m                                              | By authors                                                                                                                                                        |
+| 48  | The Beijing West Railway Station area - 250m vs 500m.                                          | By authors                                                                                                                                                        |
+| 49  | The literature selected and the relevance to the research findings.                            | By authors                                                                                                                                                        |
+| 50  | Examine relevance and compare cases.                                                           | By authors                                                                                                                                                        |
+| 51  | The evaluation of design principles.                                                           | By authors                                                                                                                                                        |
+| 52  | The design principles related to the event typology.                                           | By authors                                                                                                                                                        |
