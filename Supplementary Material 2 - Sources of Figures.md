@@ -1,6 +1,6 @@
 ## Supplementary Material 2 - Sources of Figures
 
-| N   | Figure and Caption                                                                             | Source                                                                                                                                                           |
+| Number   |  Figure Caption                                                                          | Source                                                                                                                                                           |
 | --- | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | Overcrowding and emptiness in railway stations areas.                                          | Left - [163.com](https://www.163.com/dy/article/DLED9I020524TFU4.html); Right - [Sohu](https://www.sohu.com/a/386779398_640391)                                   |
 | 2   | A conceptual basic unit of passenger flow.                                                     | By authors                                                                                                                                                        |
