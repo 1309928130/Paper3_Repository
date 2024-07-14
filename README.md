@@ -1,6 +1,8 @@
 # Supplementary Materials Repository for Paper 3 
 
-This repository contains supplementary materials for **Paper 3** (under submission).
+This repository contains materials for **Paper 3** (under submission).
+
+[The **main article**]()
 
 [The file **Detailed information**](https://github.com/1309928130/Paper3_SupplementaryMaterials/blob/main/Supplementary%20Materials%20-%20Detailed%20Information.pdf)
 
