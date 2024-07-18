@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://c1309928130.pythonanywhere.com/?dimension=All -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Design Principles</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.main-heading {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 50px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dropdown-container {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+    justify-content: center;
+    margin-bottom: 10px; /* Add margin below the container */
+}
+
+.dropdown-label {
+    margin-right: 5px; /* Add space between label and dropdown */
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: black;
+}
+
+.dropdown-menu {
+    border: 1px solid #000; /* Add a border */
+    border-radius: 25px; /* Add rounded corners */
+    width: auto; /* Set the width of the dropdown box */
+    margin-right: 2px;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+.principles-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow pictures to wrap to the next line */
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+.principles-row {
+    display: flex;
+    flex-wrap: wrap; /* Allow images to wrap to the next line */
+    align-items: flex-start;
+}
+
+.principle {
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    margin: 5px;
+
+}
+
+.principle img {
+    width: 210px ; /* Adjust the width of the images */
+    height: 140px; /* Automatically adjust height while maintaining aspect ratio */
+    transition: transform 0.3s ease-in-out;
+<!--    border: 1px solid rgba(0,0,0,0.1);-->
+}
+
+.principle:hover {
+    z-index: 2; /* Increase z-index on hover to bring the hovered principle to the top */
+}
+.principle:hover img {
+    transform: scale(1.5); /* Scale up the image on hover */
+    z-index: 3;
+}
+
+.tooltip {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    border: none;
+    border-radius: 0px;
+    visibility: hidden;
+
+    transition: opacity 0.3s ease-in-out;
+    width: 500px; /* Adjust the width */
+
+    color: black; /* Adjust the color */
+    font-family: "Roboto",  sans-serif; /* Change the font type */
+    font-size: 20px; /* Adjust the font size */
+    font-weight: 1000;
+    text-align: center;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+
+    z-index: 3; /* Ensure tooltip appears above other images */
+}
+
+.principle:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+    z-index: 3;
+}
+
+.row-container {
+    display: block;
+    flex-direction: column; /* Adjust flex-direction to stack elements vertically */
+    flex-basis: 100%;
+}
+
+.row-title {
+    display: block;
+
+    flex-basis: 100%; /* Force each title to take up the full width */
+<!--    margin-bottom: 5px; /* Adjust the space between rows */-->
+    margin-top: 20px;
+
+    color: rgb(0, 0, 0); /* Adjust the color */
+    font-family: "Roboto",  sans-serif; /* Change the font type */
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 25px; /* Adjust the font size */
+
+}
+.row-title::first-letter {
+    /* Capitalize the first letter */
+    text-transform: uppercase;
+}
+
+
+.index-number {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the index number */
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+
+    width: 60px; /* Set the same width and height */
+    height: 60px; /* Set the same width and height */
+    border-radius: 50%;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+    color: black;
+}
+.principle:hover .index-number {
+    opacity: 0; /* Make the index number disappear on hover */
+}
+
+    </style>
+</head>
+
+
+
+
+<body data-new-gr-c-s-check-loaded="14.1188.0" data-gr-ext-installed="">
+    <h1 class="main-heading">Design Principles for Demand-Responsive Station Areas</h1>
+
+    <!-- Container for the label and dropdown -->
+    <div class="dropdown-container">
+        <!-- Text label for the dropdown menu -->
+        <span class="dropdown-label">Perspective ➭</span>
+
+        <!-- Dropdown menu for selecting dimensions -->
+        <select id="dimensionSelect" class="dropdown-menu">
+            <option value="">All</option>
+            <option value="Patterns in a Network">Patterns in a Network</option> <!-- New option added here -->
+            <option value="Related to an Event Typology">Related to an Event Typology</option> <!-- New option added here -->
+
+            
+                
+            
+                
+            
+                
+            
+                
+                    <option value="Source of heuristics">Source of heuristics</option>
+                
+            
+                
+                    <option value="Paradigm">Paradigm</option>
+                
+            
+                
+                    <option value="District vs Building">District vs Building</option>
+                
+            
+                
+                    <option value="Outdoor vs Indoor">Outdoor vs Indoor</option>
+                
+            
+                
+                    <option value="Overcrowding vs Emptiness">Overcrowding vs Emptiness</option>
+                
+            
+                
+                    <option value="Pitfall">Pitfall</option>
+                
+            
+                
+                    <option value="Limitations">Limitations</option>
+                
+            
+                
+                    <option value="Fixed vs Flexible">Fixed vs Flexible</option>
+                
+            
+                
+                    <option value="Element vs Layout">Element vs Layout</option>
+                
+            
+                
+                    <option value="Spatial vs Managerial">Spatial vs Managerial</option>
+                
+            
+                
+                    <option value="Form vs Function">Form vs Function</option>
+                
+            
+                
+                    <option value="(Other) Themes">(Other) Themes</option>
+                
+            
+                
+            
+                
+            
+        </select>
+
+    </div>
+
+
+    <!-- Container for design principles -->
+    <div class="principles-container" id="principles-container"><img src="./relate to an event typology_files/event_principles.png" alt="Event Principles Image" style="max-width: 100%;"><div class="description">
+    <h2>Relate design principles to an event typology</h2>
+
+    <p>Events are an important aspect of this research, as they are the causes of fluctuations in station areas and are a solution to solve emptiness. As part of the exploration of design solutions, we investigated the relationship between event types and design principles.</p>
+
+    <!-- Define colors using HTML model -->
+    <style>
+        .color1 { color: #DBC096; }
+        .color2 { color: #B99205; }
+        .color3 { color: #414BB2; }
+        .color4 { color: #8FD14F; }
+        .color5 { color: #78AE7B; }
+        .color6 { color: #32BF1E; }
+        .color7 { color: #CEE741; }
+        .color8 { color: #EE9548; }
+        .color9 { color: #FAC710; }
+        .color10 { color: #D20A0A; }
+        .teal { color: teal; }
+        .black-text { color: black; }
+    </style>
+
+    <p>In this research, we adopted an event typology developed by <cite>Smith (2021)</cite>. This typology is framed based on access and mobility, including nine types of events: E1) large indoor arenas, E2) concerts and screenings, E3) pleasure gardens, E4) parades and street races, E5) roadshows, E6) markets and fairs, E7) mass gatherings, E8) micro-performances, and E9) marches and street parties. Two events - E4 and E9, primarily happen on streets, which are irrelevant for most spaces in railway stations, so we excluded (<strong>×</strong>) them (fig. <a href="http://c1309928130.pythonanywhere.com/?dimension=All#fig:eventtypology_principles" class="black-text">eventtypology_principles</a>).</p>
+
+    <ul>
+        <li>Large open-air events with concentrated distributions, including E2, E3, and E7, need large coherent outdoor spaces and should not block city passages. Therefore, these events have relevance to design principles (DPs)
+            <a href="http://c1309928130.pythonanywhere.com/?dimension=All#dp11" class="black-text">(11) Adaptive redundant spaces with path regulation</a>,
+            <a href="http://c1309928130.pythonanywhere.com/?dimension=All#dp7" class="black-text">(7) Human-oriented spaces</a>, and
+            <a href="http://c1309928130.pythonanywhere.com/?dimension=All#dp20" class="black-text">(20 21) City passages and their positioning</a>.
+            (Links: <span class="black-text">E2-D7, E3-D7, E6-D7; E7-D7; E2-D11, E3-D11, E6-D11, E7-D11; E2-D21, E3-D21, E6-D21, E7-D21)
+        </span></li>
+
+        <li>For large events with performances - E2,
+            <a href="http://c1309928130.pythonanywhere.com/?dimension=All#dp24" class="black-text">(24) Stairs as stages or seats</a> can be used.
+            (Link: <span class="color6">E2-D24</span>)
+        </li>
+
+        <li>Small spaces are common in a scattered layout (
+            <a href="http://c1309928130.pythonanywhere.com/?dimension=All#dp4" class="black-text">D4</a>), and small events - E8 can be held in these small spaces.
+            <a href="http://c1309928130.pythonanywhere.com/?dimension=All#dp15" class="black-text">(15) Flexible building components</a> can also be the small spaces to hold small events.
+            (Links: <span class="color7">E8-D4, E8-D15</span>)
+        </li>
+
+        <li>For events that require user participation and are open-access, including E7, E5, E6, and E8, it is necessary to
+            <a href="http://c1309928130.pythonanywhere.com/?dimension=All#dp6" class="black-text">(6) Make events visible by aligning main paths and open spaces</a>.
+            (Links: <span class="color2">E7-D6, E5-D6, E6-D6, E8-D6</span>)
+        </li>
+
+        <li>Small performances and markets can help promote a vibrant environment, and it is a prerequisite to
+            <a href="http://c1309928130.pythonanywhere.com/?dimension=All#dp23" class="black-text">(23) Reduce barriers to ease flow at the building level</a>.
+            (Links: <span class="color5">E6-D23, E8-D23</span>)
+        </li>
+
+        <li>Large indoor arenas can be
+            <a href="http://c1309928130.pythonanywhere.com/?dimension=All#dp14" class="black-text">Flexible buildings (14)</a>. Flexible and Shared use between arenas and stations can be realized if the station areas are
+            <a href="http://c1309928130.pythonanywhere.com/?dimension=All#dp12" class="black-text">(12) Programmed considering the time dimension</a>.
+            The arenas should be located in
+            <a href="http://c1309928130.pythonanywhere.com/?dimension=All#dp2" class="black-text">Suitable general layouts of the station and city (2)</a>.
+            (Links: <span class="color4">E1-D2, E1-D14, E1-D12</span>)
+        </li>
+
+        <li>In events E3 and E6, it is necessary to
+            <a href="http://c1309928130.pythonanywhere.com/?dimension=All#dp16" class="black-text">(16) Add installations and facilities</a>, which can be
+            <a href="http://c1309928130.pythonanywhere.com/?dimension=All#dp17" class="black-text">(17) Reconfigurable elements</a>.
+            (Links: <span class="color8">E3-D11, E6-D11; E3-D16</span>)
+        </li>
+
+        <li>For all possible events happening in railway stations, the event spaces should support flexible use and be configurable, and pedestrians should be able to walk smoothly to the event spots. Therefore, several design principles are relevant, including
+            <a href="http://c1309928130.pythonanywhere.com/?dimension=All#dp22" class="black-text">(22 23) Reduce barriers to ease flow at the district level</a>,
+            <a href="http://c1309928130.pythonanywhere.com/?dimension=All#dp25" class="black-text">(25) City axes</a>,
+            <a href="http://c1309928130.pythonanywhere.com/?dimension=All#dp1" class="black-text">(1) Flexible use</a>,
+            <a href="http://c1309928130.pythonanywhere.com/?dimension=All#dp26" class="black-text">(26) Reconfigurable spaces</a>.
+            (Links: <span class="color9">All-D25, All-D22, All-D26, All-D1</span>)
+        </li>
+    </ul>
+</div>
+</div>
+
+
+
+
+<script>
+document.getElementById('dimensionSelect').addEventListener('change', function() {
+    var dimension = this.value;
+    var principlesContainer = document.getElementById('principles-container');
+
+    // Clear any existing content in the principles container
+    principlesContainer.innerHTML = '';
+
+    if (dimension === '(Other) Themes') {
+        // Store the selected dimension in session storage
+        sessionStorage.setItem('selectedDimension', dimension);
+
+        // Call a function to fetch available themes and filter design principles
+        fetchThemesAndFilter();
+
+<!--    } else if (dimension === 'Patterns in a Network') {-->
+<!--        // Redirect to the PDF file-->
+<!--        window.location.href = '/static/Pattern_Network_8M.pdf';-->
+    }else if (dimension === 'Patterns in a Network') {
+
+
+        // Create an img element
+        var img = document.createElement('img');
+        img.src = '/static/Pattern_Network_8M.png';
+        img.alt = 'Patterns in a Network';
+        img.style.maxWidth = '100%'; // Ensure the image fits within its container
+
+        // Define the description
+        var description = '<a>(Description undefined)</a>';
+
+
+        // Append the image and description to the principles container
+        var principlesContainer = document.getElementById('principles-container');
+        principlesContainer.appendChild(img);
+        principlesContainer.insertAdjacentHTML('beforeend', description);
+
+} else if (dimension === 'Related to an Event Typology') {
+    // Display image and description for event typology
+    displayEventTypologyContent();
+
+
+
+}else if (dimension === 'All') {
+        // Clear the session storage for selected dimension
+        sessionStorage.removeItem('selectedDimension');
+
+        // Update the URL to reflect the selected dimension
+        window.location.href = '/?dimension=' + 'All';
+    } else {
+        // Update the URL to reflect the selected dimension
+        window.location.href = '/?dimension=' + (dimension ? dimension : 'All');
+    }
+});
+
+
+
+// Function to display the event typology content
+function displayEventTypologyContent() {
+    // Clear the existing content before appending new content
+    document.getElementById('principles-container').innerHTML = '';
+
+    // Create an image element
+    var img = document.createElement('img');
+    img.src = '/static/event_principles.png';
+    img.alt = 'Event Principles Image';
+    img.style.maxWidth = '100%'; // Ensure the image fits within its container
+
+    // Append the image to the principles container
+    document.getElementById('principles-container').appendChild(img);
+
+    // Fetch the external HTML content and insert it into the container
+    fetch('/event_typology')
+        .then(response => response.text())
+        .then(html => {
+            document.getElementById('principles-container').insertAdjacentHTML('beforeend', html);
+        })
+        .catch(error => {
+            console.error('Error loading event typology content:', error);
+        });
+
+
+
+    // Append the image and description to the principles container
+    document.getElementById('principles-container').appendChild(img);
+    document.getElementById('principles-container').insertAdjacentHTML('beforeend', description);
+}
+
+
+
+
+    // Function to fetch available themes and filter design principles
+    function fetchThemesAndFilter() {
+        // Fetch available themes from the server
+        fetch('/get_available_themes')
+        .then(response => response.json())
+        .then(themes => {
+            // Display the themes and let the user select
+            var themeList = themes.map(theme => '<div class="row-title">' + theme + '</div>').join('');
+
+            // Filter design principles based on the selected theme
+            themes.forEach(theme => filterByTheme(theme));
+
+            // Call the sorting function after fetching and filtering
+            sortContainers();
+        })
+        .catch(error => console.error('Error:', error));
+    }
+
+    // Function to filter design principles by theme
+    function filterByTheme(theme) {
+        // Clear the existing content before appending new content
+        document.getElementById('principles-container').innerHTML = '';
+
+        // Send the selected theme to the server for filtering
+        fetch('/filter_by_theme', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ theme: theme })
+        })
+        .then(response => response.text())
+        .then(html => {
+            // Append the filtered design principles to the principles container
+            document.getElementById('principles-container').innerHTML += html;
+        })
+        .catch(error => console.error('Error:', error));
+    }
+
+
+
+
+// Function to sort containers based on the row titles
+function sortContainers() {
+    // Get all the container elements
+    var containers = document.querySelectorAll('.row-container');
+
+    // Check if containers exist
+    if (containers.length === 0) {
+        // If no containers exist, exit the function
+        return;
+    }
+
+    // Convert NodeList to Array for sorting
+    containers = Array.from(containers);
+
+    // Sort the containers based on the row titles, if they exist
+    containers.sort(function(a, b) {
+        var titleA = a.querySelector('.row-title');
+        var titleB = b.querySelector('.row-title');
+
+        // Check if both containers have row titles
+        if (titleA && titleB) {
+            var titleTextA = titleA.innerText.toUpperCase();
+            var titleTextB = titleB.innerText.toUpperCase();
+
+            if (titleTextA < titleTextB) {
+                return -1;
+            }
+            if (titleTextA > titleTextB) {
+                return 1;
+            }
+            return 0;
+        } else {
+            // If either container lacks a row title, maintain the current order
+            return 0;
+        }
+    });
+
+    // Empty the principles container
+    var principlesContainer = document.getElementById('principles-container');
+    principlesContainer.innerHTML = '';
+
+    // Append sorted row containers back to the principles container
+    containers.forEach(function(container) {
+        principlesContainer.appendChild(container);
+    });
+}
+
+
+    // Call the sorting function after the page is fully loaded
+    window.onload = function() {
+
+        sortContainers();
+    };
+
+</script>
+
+
+
+
+
+<iframe id="XuQPvCs0" frameborder="0" src="./relate to an event typology_files/translateSandbox.html" style="width: 0px; height: 0px; display: none;"></iframe></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
