@@ -1,7 +1,7 @@
 # The Repository for Paper 3 
 
 
-This repository contains contents for **Paper 3** (under submission).
+This repository contains contents for **Paper 3** (for submission).
 
 [The **Main article**](https://github.com/1309928130/Paper3_SupplementaryMaterials/blob/main/Main%20Article.pdf)
 
