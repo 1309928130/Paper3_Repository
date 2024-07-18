@@ -1,0 +1,4092 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 15">
+<link rel=File-List href="data_processing.fld/filelist.xml">
+<style id="data_processing_23734_Styles">
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{mso-footer-data:"&C&\0022Helvetica Neue\,Regular\0022&12&K000000&P";
+	margin:.75in .5in .75in .5in;
+	mso-header-margin:.28in;
+	mso-footer-margin:.28in;
+	mso-page-orientation:landscape;}
+.font5
+	{color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;}
+.font6
+	{color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;}
+.font7
+	{color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;}
+.font8
+	{color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:italic;
+	text-decoration:none;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;}
+.font9
+	{color:#0000EE;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;}
+.font10
+	{color:#919191;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;}
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{text-align:general;
+	vertical-align:top;
+	white-space:normal;
+	mso-rotate:0;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Helvetica Neue";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Helvetica Neue";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:top;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:normal;
+	mso-rotate:0;}
+.xl65
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:1.0pt solid black;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl66
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl67
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl68
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid #A5A5A5;
+	background:#D3DFE2;
+	mso-pattern:black none;}
+.xl69
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#D3DFE2;
+	mso-pattern:black none;}
+.xl70
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:1.0pt solid black;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl71
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid #A5A5A5;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl72
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid #A5A5A5;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl73
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl74
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:1.0pt solid black;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl75
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:none;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl76
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:none;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:none;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl77
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:none;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl78
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#D3DFE2;
+	mso-pattern:black none;}
+.xl79
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:1.0pt solid black;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl80
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid #A5A5A5;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl81
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid #A5A5A5;}
+.xl82
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl83
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:1.0pt solid black;
+	background:#FEFFFF;
+	mso-pattern:black none;}
+.xl84
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid #A5A5A5;}
+.xl85
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:none;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;}
+.xl86
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:none;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:none;}
+.xl87
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:none;}
+.xl88
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #BFBFBF;
+	border-left:1.0pt solid black;}
+.xl89
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #BFBFBF;
+	border-left:.5pt solid #A5A5A5;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl90
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #BFBFBF;
+	border-left:.5pt solid #A5A5A5;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl91
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #BFBFBF;
+	border-left:.5pt solid #A5A5A5;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl92
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:1.0pt solid black;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl93
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #BFBFBF;
+	border-left:.5pt solid #A5A5A5;}
+.xl94
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:none;
+	border-bottom:.5pt solid #BFBFBF;
+	border-left:.5pt solid #A5A5A5;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl95
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:none;
+	border-bottom:.5pt solid #BFBFBF;
+	border-left:none;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl96
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #BFBFBF;
+	border-left:none;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl97
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #BFBFBF;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #BFBFBF;
+	border-left:1.0pt solid black;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl98
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #BFBFBF;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #BFBFBF;
+	border-left:.5pt solid #A5A5A5;}
+.xl99
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #BFBFBF;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #BFBFBF;
+	border-left:.5pt solid #A5A5A5;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl100
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #BFBFBF;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #BFBFBF;
+	border-left:.5pt solid #A5A5A5;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl101
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #BFBFBF;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #BFBFBF;
+	border-left:.5pt solid #A5A5A5;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl102
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #BFBFBF;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:none;
+	border-left:.5pt solid #A5A5A5;}
+.xl103
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #BFBFBF;
+	border-right:none;
+	border-bottom:.5pt solid #BFBFBF;
+	border-left:.5pt solid #A5A5A5;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl104
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #BFBFBF;
+	border-right:none;
+	border-bottom:.5pt solid #BFBFBF;
+	border-left:none;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl105
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #BFBFBF;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #BFBFBF;
+	border-left:none;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl106
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #BFBFBF;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:none;
+	border-left:.5pt solid #A5A5A5;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl107
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #BFBFBF;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:none;
+	border-left:.5pt solid #A5A5A5;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl108
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:none;
+	border-left:.5pt solid #A5A5A5;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl109
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #BFBFBF;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid #A5A5A5;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl110
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #BFBFBF;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl111
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #BFBFBF;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:none;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl112
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:1.0pt solid black;
+	border-bottom:1.0pt solid black;
+	border-left:.5pt solid #A5A5A5;
+	background:#D3DFE2;
+	mso-pattern:black none;}
+.xl113
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #BFBFBF;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:1.0pt solid black;
+	border-left:1.0pt solid black;}
+.xl114
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #BFBFBF;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:1.0pt solid black;
+	border-left:.5pt solid #A5A5A5;}
+.xl115
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #BFBFBF;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:1.0pt solid black;
+	border-left:.5pt solid #A5A5A5;}
+.xl116
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #BFBFBF;
+	border-right:1.0pt solid black;
+	border-bottom:1.0pt solid black;
+	border-left:.5pt solid #A5A5A5;}
+.xl117
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:1.0pt solid black;
+	border-left:1.0pt solid black;
+	background:#FEFFFF;
+	mso-pattern:black none;}
+.xl118
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:1.0pt solid black;
+	border-left:.5pt solid #A5A5A5;}
+.xl119
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.0pt solid black;
+	border-left:.5pt solid #A5A5A5;}
+.xl120
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.0pt solid black;
+	border-left:none;}
+.xl121
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:1.0pt solid black;
+	border-bottom:1.0pt solid black;
+	border-left:none;}
+.xl122
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#D3DFE2;
+	mso-pattern:black none;}
+.xl123
+	{mso-style-parent:style0;
+	color:#FF1900;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:1.0pt solid black;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl124
+	{mso-style-parent:style0;
+	color:#FF1900;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl125
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;}
+.xl126
+	{mso-style-parent:style0;
+	color:#FF1900;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl127
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:1.0pt solid black;
+	background:#FEFFFF;
+	mso-pattern:black none;}
+.xl128
+	{mso-style-parent:style0;
+	color:#FF1900;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:none;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl129
+	{mso-style-parent:style0;
+	color:#FF1900;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:none;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:none;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl130
+	{mso-style-parent:style0;
+	color:#FF1900;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:none;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl131
+	{mso-style-parent:style0;
+	color:#FF1900;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:1.0pt solid black;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl132
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:none;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;}
+.xl133
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:none;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:none;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl134
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:none;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl135
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:none;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl136
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:none;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl137
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:1.0pt solid black;
+	border-bottom:1.0pt solid black;
+	border-left:.5pt solid #A5A5A5;
+	background:#D3DFE2;
+	mso-pattern:black none;}
+.xl138
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:1.0pt solid black;
+	border-left:1.0pt solid black;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl139
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:1.0pt solid black;
+	border-left:.5pt solid #A5A5A5;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl140
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:1.0pt solid black;
+	border-bottom:1.0pt solid black;
+	border-left:.5pt solid #A5A5A5;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl141
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:1.0pt solid black;
+	border-left:.5pt solid #A5A5A5;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl142
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:none;
+	border-bottom:1.0pt solid black;
+	border-left:.5pt solid #A5A5A5;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl143
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:none;
+	border-bottom:1.0pt solid black;
+	border-left:none;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl144
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:1.0pt solid black;
+	border-bottom:1.0pt solid black;
+	border-left:none;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl145
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:1.0pt solid black;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl146
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:none;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl147
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:none;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:none;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl148
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:none;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl149
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl150
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:none;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:none;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl151
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:none;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl152
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid #A5A5A5;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl153
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:none;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:none;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl154
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:none;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl155
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:none;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl156
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:1.0pt solid black;
+	border-left:1.0pt solid black;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl157
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:none;
+	border-bottom:1.0pt solid black;
+	border-left:.5pt solid #A5A5A5;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl158
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:none;
+	border-bottom:1.0pt solid black;
+	border-left:none;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl159
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:1.0pt solid black;
+	border-bottom:1.0pt solid black;
+	border-left:none;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl160
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;}
+.xl161
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:left;
+	vertical-align:middle;
+	border:none;}
+.xl162
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border:none;}
+.xl163
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border:none;}
+.xl164
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border:none;}
+.xl165
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border:none;}
+.xl166
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#D3DFE2;
+	mso-pattern:black none;}
+.xl167
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:1.0pt solid black;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl168
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl169
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl170
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl171
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:#D3DFE2;
+	mso-pattern:black none;}
+.xl172
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:#D3DFE2;
+	mso-pattern:black none;}
+.xl173
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl174
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:none;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl175
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:none;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl176
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#D3DFE2;
+	mso-pattern:black none;}
+.xl177
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid black;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#D3DFE2;
+	mso-pattern:black none;}
+.xl178
+	{mso-style-parent:style0;
+	border:none;}
+.xl179
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl180
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:#FDF2D0;
+	mso-pattern:black none;}
+.xl181
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:#EAEAEA;
+	mso-pattern:black none;}
+.xl182
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid windowtext;}
+.xl183
+	{mso-style-parent:style0;
+	font-size:12.0pt;
+	font-family:"Helvetica Neue Light";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	white-space:nowrap;}
+.xl184
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:1.0pt solid black;
+	background:#D3DFE2;
+	mso-pattern:black none;}
+.xl185
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:1.0pt solid black;
+	background:#DBDBDB;
+	mso-pattern:black none;}
+.xl186
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:1.0pt solid black;
+	border-left:1.0pt solid black;
+	background:#DBDBDB;
+	mso-pattern:black none;}
+.xl187
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border:.5pt solid windowtext;
+	background:#BDC0BF;
+	mso-pattern:black none;}
+.xl188
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:1.0pt solid black;
+	background:#D3DFE2;
+	mso-pattern:black none;}
+.xl189
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#BDC0BF;
+	mso-pattern:black none;}
+.xl190
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#BDC0BF;
+	mso-pattern:black none;}
+.xl191
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:1.0pt solid black;
+	background:#BDC0BF;
+	mso-pattern:black none;}
+.xl192
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border:.5pt solid #A5A5A5;
+	background:#BDC0BF;
+	mso-pattern:black none;}
+.xl193
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#BDC0BF;
+	mso-pattern:black none;}
+.xl194
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:1.0pt solid black;
+	border-left:1.0pt solid black;
+	background:#BDC0BF;
+	mso-pattern:black none;}
+.xl195
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:1.0pt solid black;
+	border-left:.5pt solid #A5A5A5;
+	background:#BDC0BF;
+	mso-pattern:black none;}
+.xl196
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid windowtext;
+	border-bottom:1.0pt solid black;
+	border-left:.5pt solid #A5A5A5;
+	background:#BDC0BF;
+	mso-pattern:black none;}
+.xl197
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border-top:1.0pt solid black;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:1.0pt solid black;
+	border-left:1.0pt solid black;
+	background:#BDC0BF;
+	mso-pattern:black none;}
+.xl198
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border-top:1.0pt solid black;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:1.0pt solid black;
+	border-left:.5pt solid #A5A5A5;
+	background:#BDC0BF;
+	mso-pattern:black none;}
+.xl199
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border-top:1.0pt solid black;
+	border-right:.5pt solid windowtext;
+	border-bottom:1.0pt solid black;
+	border-left:.5pt solid #A5A5A5;
+	background:#BDC0BF;
+	mso-pattern:black none;}
+.xl200
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;}
+.xl201
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border-top:1.0pt solid black;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:#DBDBDB;
+	mso-pattern:black none;}
+.xl202
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#D3DFE2;
+	mso-pattern:black none;}
+.xl203
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border-top:1.0pt solid black;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#DBDBDB;
+	mso-pattern:black none;}
+.xl204
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border:.5pt solid #A5A5A5;
+	background:#DBDBDB;
+	mso-pattern:black none;}
+.xl205
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:1.0pt solid black;
+	border-left:.5pt solid #A5A5A5;
+	background:#D3DFE2;
+	mso-pattern:black none;}
+.xl206
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid #A5A5A5;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:1.0pt solid black;
+	border-left:.5pt solid #A5A5A5;
+	background:#DBDBDB;
+	mso-pattern:black none;}
+.xl207
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl208
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border:none;
+	background:#DBDBDB;
+	mso-pattern:black none;}
+.xl209
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#DBDBDB;
+	mso-pattern:black none;}
+.xl210
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl211
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:#DBDBDB;
+	mso-pattern:black none;}
+.xl212
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#DBDBDB;
+	mso-pattern:black none;}
+.xl213
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border:none;}
+.xl214
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border:none;
+	background:#DBDBDB;
+	mso-pattern:black none;}
+.xl215
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border:none;}
+.xl216
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border:none;
+	background:#DBDBDB;
+	mso-pattern:black none;}
+.xl217
+	{mso-style-parent:style0;
+	border:none;}
+.xl218
+	{mso-style-parent:style0;
+	border-top:.5pt solid #BFBFBF;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:none;
+	border-left:.5pt solid #A5A5A5;}
+.xl219
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:1.0pt solid black;
+	border-left:.5pt solid #A5A5A5;}
+.xl220
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:1.0pt solid black;
+	border-left:.5pt solid #A5A5A5;}
+.xl221
+	{mso-style-parent:style0;
+	border:.5pt solid #A5A5A5;}
+.xl222
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	vertical-align:middle;
+	border:none;}
+.xl223
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border:none;
+	background:#DBDBDB;
+	mso-pattern:black none;}
+.xl224
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:left;
+	vertical-align:middle;
+	border:.5pt solid windowtext;}
+.xl225
+	{mso-style-parent:style0;
+	border:.5pt solid windowtext;}
+.xl226
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:left;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	padding-left:18px;
+	mso-char-indent-count:2;}
+.xl227
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;}
+.xl228
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#DBDBDB;
+	mso-pattern:black none;}
+.xl229
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#DBDBDB;
+	mso-pattern:black none;}
+.xl230
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	border:.5pt solid windowtext;
+	background:#D3DFE2;
+	mso-pattern:black none;}
+.xl231
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid black;
+	border-right:.5pt solid #A5A5A5;
+	border-bottom:.5pt solid #A5A5A5;
+	border-left:.5pt solid #A5A5A5;
+	background:#D3DFE2;
+	mso-pattern:black none;}
+.xl232
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid #A5A5A5;
+	background:#D3DFE2;
+	mso-pattern:black none;}
+-->
+</style>
+</head>
+
+<body link=blue vlink=fuchsia>
+<!--[if !excel]>&nbsp;&nbsp;<![endif]-->
+<!--The following information was generated by Microsoft Excel's Publish as Web
+Page wizard.-->
+<!--If the same item is republished from Excel, all information between the DIV
+tags will be replaced.-->
+<!----------------------------->
+<!--START OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD -->
+<!----------------------------->
+
+<div id="data_processing_23734" align=center x:publishsource="Excel">
+
+<table border=0 cellpadding=0 cellspacing=0 width=2544 style='border-collapse:
+ collapse;table-layout:fixed;width:1909pt'>
+ <col width=108 style='mso-width-source:userset;mso-width-alt:3456;width:81pt'>
+ <col width=51 style='mso-width-source:userset;mso-width-alt:1621;width:38pt'>
+ <col width=23 style='mso-width-source:userset;mso-width-alt:725;width:17pt'>
+ <col width=197 style='mso-width-source:userset;mso-width-alt:6314;width:148pt'>
+ <col width=105 style='mso-width-source:userset;mso-width-alt:3370;width:79pt'>
+ <col width=136 style='mso-width-source:userset;mso-width-alt:4352;width:102pt'>
+ <col width=111 style='mso-width-source:userset;mso-width-alt:3541;width:83pt'>
+ <col width=132 style='mso-width-source:userset;mso-width-alt:4224;width:99pt'>
+ <col width=85 style='mso-width-source:userset;mso-width-alt:2730;width:64pt'>
+ <col width=96 style='mso-width-source:userset;mso-width-alt:3072;width:72pt'>
+ <col width=124 style='mso-width-source:userset;mso-width-alt:3968;width:93pt'>
+ <col width=104 style='mso-width-source:userset;mso-width-alt:3328;width:78pt'>
+ <col width=88 style='mso-width-source:userset;mso-width-alt:2816;width:66pt'>
+ <col width=103 style='mso-width-source:userset;mso-width-alt:3285;width:77pt'>
+ <col width=93 style='mso-width-source:userset;mso-width-alt:2986;width:70pt'>
+ <col width=101 style='mso-width-source:userset;mso-width-alt:3242;width:76pt'>
+ <col width=123 style='mso-width-source:userset;mso-width-alt:3925;width:92pt'>
+ <col width=91 style='mso-width-source:userset;mso-width-alt:2901;width:68pt'>
+ <col width=101 style='mso-width-source:userset;mso-width-alt:3242;width:76pt'>
+ <col width=109 style='mso-width-source:userset;mso-width-alt:3498;width:82pt'>
+ <col width=88 style='mso-width-source:userset;mso-width-alt:2816;width:66pt'>
+ <col width=96 style='mso-width-source:userset;mso-width-alt:3072;width:72pt'>
+ <col width=93 span=3 style='mso-width-source:userset;mso-width-alt:2986;
+ width:70pt'>
+ <col width=131 style='mso-width-source:userset;mso-width-alt:4181;width:98pt'>
+ <tr height=27 style='mso-height-source:userset;height:20.75pt'>
+  <td colspan=25 height=27 class=xl183 width=2544 style='height:20.75pt;
+  width:1909pt'>(Data processing for developing Design Principles)</td>
+ </tr>
+ <tr height=25 style='mso-height-source:userset;height:19.25pt'>
+  <td colspan=4 rowspan=4 height=176 class=xl188 width=379 style='border-right:
+  .5pt solid black;border-bottom:1.0pt solid black;height:133.25pt;width:284pt'>&nbsp;</td>
+  <td colspan=11 class=xl171 width=1177 style='border-left:none;width:883pt'><font
+  class="font5">Design </font><font class="font6">Objectives</font></td>
+  <td colspan=10 class=xl171 width=988 style='border-left:none;width:742pt'><font
+  class="font5">Spatial or Managerial </font><font class="font6">Dimensions</font></td>
+ </tr>
+ <tr height=17 style='height:13.0pt'>
+  <td colspan=6 height=17 class=xl172 width=665 style='height:13.0pt;
+  border-left:none;width:499pt'>Problem-oriented (Macro-level)</td>
+  <td colspan=5 class=xl172 width=512 style='border-left:none;width:384pt'>User-based
+  (Micro-level)</td>
+  <td colspan=4 class=xl172 width=416 style='border-left:none;width:312pt'>Spatial</td>
+  <td colspan=6 class=xl230 width=572 style='border-left:none;width:430pt'>Managerial+Spatial?</td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:16.0pt'>
+  <td rowspan=2 height=134 class=xl172 width=105 style='height:101.0pt;
+  border-top:none;width:79pt'><font class="font5">Has </font><font class="font6">Overcrowding</font><font
+  class="font5"> phenomena?</font></td>
+  <td rowspan=2 class=xl172 width=136 style='border-top:none;width:102pt'><font
+  class="font5">Has interventions that (potentially) </font><font class="font6">reduce
+  Overcrowding</font><font class="font5">?</font></td>
+  <td rowspan=2 class=xl172 width=111 style='border-top:none;width:83pt'><font
+  class="font5">Has </font><font class="font6">Emptiness</font><font
+  class="font5"> phenomena?</font></td>
+  <td rowspan=2 class=xl171 width=132 style='border-top:none;width:99pt'><font
+  class="font5">Has interventions that (potentially)<span
+  style='mso-spacerun:yes'>  </span></font><font class="font6">reduce
+  Emptiness?</font></td>
+  <td rowspan=2 class=xl171 width=85 style='border-top:none;width:64pt'>Add
+  City Value?</td>
+  <td rowspan=2 class=xl172 width=96 style='border-top:none;width:72pt'><font
+  class="font6">Reduce Conflicts of Use </font><font class="font5">between the
+  station and the city?</font></td>
+  <td rowspan=2 class=xl171 width=124 style='border-top:none;width:93pt'><font
+  class="font5">Related to</font><font class="font6"> Safety </font><font
+  class="font5">(Overcrowding or Eyes-on-the-Street)</font></td>
+  <td rowspan=2 class=xl171 width=104 style='border-top:none;width:78pt'><font
+  class="font5">Related to</font><font class="font6"><br>
+    </font><font class="font6">Speed<span style='mso-spacerun:yes'> </span></font></td>
+  <td rowspan=2 class=xl171 width=88 style='border-top:none;width:66pt'><font
+  class="font5">Related to</font><font class="font6"><br>
+    </font><font class="font6">Ease </font><font class="font5">(of Wayfinding)</font></td>
+  <td rowspan=2 class=xl171 width=103 style='border-top:none;width:77pt'><font
+  class="font5">Related to</font><font class="font6"><br>
+    </font><font class="font6">Comfort</font><font class="font5"> (of
+  Facilities and Weather-Protected areas)</font></td>
+  <td rowspan=2 class=xl171 width=93 style='border-top:none;width:70pt'><font
+  class="font5">Related to</font><font class="font6"><br>
+    </font><font class="font5">(Visual) </font><font class="font6">Experience</font></td>
+  <td rowspan=2 class=xl171 width=101 style='border-top:none;width:76pt'><font
+  class="font5">Related to </font><font class="font6">different</font><font
+  class="font5"><br>
+    </font><font class="font6">Sizes (Scales)?</font></td>
+  <td rowspan=2 class=xl171 width=123 style='border-top:none;width:92pt'><font
+  class="font5">Related to</font><font class="font6"> Layout - Element?</font></td>
+  <td rowspan=2 class=xl171 width=91 style='border-top:none;width:68pt'><font
+  class="font5">Related to<br>
+    </font><font class="font6">Path/Flow?</font></td>
+  <td rowspan=2 class=xl171 width=101 style='border-top:none;width:76pt'><font
+  class="font5">Related to<br>
+    </font><font class="font6">Programming?</font></td>
+  <td colspan=2 class=xl172 width=197 style='border-left:none;width:148pt'>Access</td>
+  <td colspan=2 class=xl172 width=189 style='border-left:none;width:142pt'>Events</td>
+  <td colspan=2 class=xl172 width=186 style='border-left:none;width:140pt'>Others</td>
+ </tr>
+ <tr class=xl179 height=113 style='mso-height-source:userset;height:85.0pt'>
+  <td height=113 class=xl171 width=109 style='height:85.0pt;border-top:none;
+  border-left:none;width:82pt'><font class="font5">Related to</font><font
+  class="font6"> Access/Flow Regulation?</font></td>
+  <td class=xl171 width=88 style='border-top:none;border-left:none;width:66pt'><font
+  class="font5">Has</font><font class="font6"> Spatial relevance?</font></td>
+  <td class=xl171 width=96 style='border-top:none;border-left:none;width:72pt'><font
+  class="font5">Feasible to</font><font class="font6"> add Events?</font></td>
+  <td class=xl171 width=93 style='border-top:none;border-left:none;width:70pt'><font
+  class="font5">Has</font><font class="font6"> Spatial relevance?</font></td>
+  <td class=xl172 width=93 style='border-top:none;border-left:none;width:70pt'><font
+  class="font6">Other</font><font class="font5"> managerial aspects</font></td>
+  <td class=xl171 width=93 style='border-top:none;border-left:none;width:70pt'><font
+  class="font5">Has</font><font class="font6"> Spatial relevance?</font></td>
+ </tr>
+ <tr class=xl178 height=160 style='height:120.0pt'>
+  <td rowspan=10 height=1062 class=xl184 width=108 style='border-bottom:1.0pt solid black;
+  height:797.0pt;border-top:none;width:81pt'>Cases</td>
+  <td rowspan=5 class=xl231 width=51 style='border-top:none;width:38pt'>Initial
+  cases</td>
+  <td class=xl176 width=23 style='border-left:none;width:17pt'>1</td>
+  <td class=xl177 width=197 style='border-left:none;width:148pt'>Beijing West</td>
+  <td class=xl167 width=105 style='border-left:none;width:79pt'>√ <br>
+    (Problem Statement)</td>
+  <td class=xl168 width=136 style='border-left:none;width:102pt'>√− <br>
+    (Problem Statement)</td>
+  <td class=xl168 width=111 style='border-left:none;width:83pt'>√ <br>
+    (Problem Statement)</td>
+  <td class=xl168 width=132 style='border-left:none;width:99pt'>√− <br>
+    (Design Principle 22, 23)</td>
+  <td class=xl169 width=85 style='border-left:none;width:64pt'>○</td>
+  <td class=xl168 width=96 style='border-left:none;width:72pt'>○</td>
+  <td class=xl168 width=124 style='border-left:none;width:93pt'>√−<br>
+    (Non-peak-time Emptiness)</td>
+  <td class=xl168 width=104 style='border-left:none;width:78pt'>√−<br>
+    (Design Principle 13)</td>
+  <td class=xl168 width=88 style='border-left:none;width:66pt'>√−<br>
+    (Hard wayfinding in Complex Gigantic buildings; Underground spaces)</td>
+  <td class=xl168 width=103 style='border-left:none;width:77pt'>○</td>
+  <td class=xl170 width=93 style='border-left:none;width:70pt'>○</td>
+  <td class=xl167 width=101 style='border-left:none;width:76pt'>—</td>
+  <td class=xl168 width=123 style='border-left:none;width:92pt'>√<br>
+    (Design Principles 22, 23)</td>
+  <td class=xl168 width=91 style='border-left:none;width:68pt'>√−<br>
+    (Design Principles 22, 23)</td>
+  <td class=xl169 width=101 style='border-left:none;width:76pt'>○</td>
+  <td class=xl168 width=109 style='border-left:none;width:82pt'>√<br>
+    (Path Regulations during peak times; The Time period allowed for entering)</td>
+  <td class=xl169 width=88 style='border-left:none;width:66pt'>○</td>
+  <td class=xl168 width=96 style='border-left:none;width:72pt'>√−<br>
+    (Design Principles 6, 7)</td>
+  <td class=xl173 width=93 style='border-left:none;width:70pt'>√<br>
+    (Design Principles 6, 7)</td>
+  <td class=xl174 width=93 style='width:70pt'>○</td>
+  <td class=xl175 width=93 style='width:70pt'>○</td>
+ </tr>
+ <tr height=160 style='height:120.0pt'>
+  <td height=160 class=xl68 width=23 style='height:120.0pt;border-top:none;
+  border-left:none;width:17pt'>2</td>
+  <td class=xl69 width=197 style='border-top:none;border-left:none;width:148pt'>Shanghai</td>
+  <td class=xl70 width=105 style='border-top:none;border-left:none;width:79pt'>○</td>
+  <td class=xl71 width=136 style='border-top:none;border-left:none;width:102pt'>√+
+  <br>
+    (Design Principle 5)</td>
+  <td class=xl72 width=111 style='border-top:none;border-left:none;width:83pt'>○</td>
+  <td class=xl71 width=132 style='border-top:none;border-left:none;width:99pt'>√+
+  <br>
+    (Design Principle 22)</td>
+  <td class=xl71 width=85 style='border-top:none;border-left:none;width:64pt'>√+<br>
+    (Design Principle 22, 23)</td>
+  <td class=xl71 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl71 width=124 style='border-top:none;border-left:none;width:93pt'>○</td>
+  <td class=xl71 width=104 style='border-top:none;border-left:none;width:78pt'>○</td>
+  <td class=xl71 width=88 style='border-top:none;border-left:none;width:66pt'>√−<br>
+    (Design Principle 5 - Limitations)</td>
+  <td class=xl71 width=103 style='border-top:none;border-left:none;width:77pt'>○</td>
+  <td class=xl73 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl74 width=101 style='border-top:none;border-left:none;width:76pt'>—</td>
+  <td class=xl71 width=123 style='border-top:none;border-left:none;width:92pt'>√<br>
+    (Design Principle 5)</td>
+  <td class=xl71 width=91 style='border-top:none;border-left:none;width:68pt'>√+<br>
+    (Design Principles 22, 23)</td>
+  <td class=xl72 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl71 width=109 style='border-top:none;border-left:none;width:82pt'>√<br>
+    (Path Regulations during peak times; The Time period allowed for entering)</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl71 width=96 style='border-top:none;border-left:none;width:72pt'>√+<br>
+    (Design Principle 7)</td>
+  <td class=xl75 width=93 style='border-top:none;border-left:none;width:70pt'>√<br>
+    (Design Principle 7)</td>
+  <td class=xl76 width=93 style='border-top:none;width:70pt'>○</td>
+  <td class=xl77 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=100 style='height:75.0pt'>
+  <td height=100 class=xl68 width=23 style='height:75.0pt;border-top:none;
+  border-left:none;width:17pt'>3</td>
+  <td class=xl69 width=197 style='border-top:none;border-left:none;width:148pt'>Rotterdam</td>
+  <td class=xl70 width=105 style='border-top:none;border-left:none;width:79pt'>○</td>
+  <td class=xl71 width=136 style='border-top:none;border-left:none;width:102pt'>√+
+  <br>
+    (Design Principles 8, 10)</td>
+  <td class=xl72 width=111 style='border-top:none;border-left:none;width:83pt'>○</td>
+  <td class=xl71 width=132 style='border-top:none;border-left:none;width:99pt'>√+
+  <br>
+    (Design Principles 1, 6, 7, 16, 20, 21, 25)</td>
+  <td class=xl71 width=85 style='border-top:none;border-left:none;width:64pt'>√+<br>
+    (Design Principle 20, 21, 22, 23)</td>
+  <td class=xl71 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl71 width=124 style='border-top:none;border-left:none;width:93pt'>○</td>
+  <td class=xl71 width=104 style='border-top:none;border-left:none;width:78pt'>√<br>
+    (Different priorities for different modes)</td>
+  <td class=xl71 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl71 width=103 style='border-top:none;border-left:none;width:77pt'>○</td>
+  <td class=xl73 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl74 width=101 style='border-top:none;border-left:none;width:76pt'>—</td>
+  <td class=xl71 width=123 style='border-top:none;border-left:none;width:92pt'>√<br>
+    (Design Principles 7, 8, 10, 25)</td>
+  <td class=xl71 width=91 style='border-top:none;border-left:none;width:68pt'>√<br>
+    (Design Principles 20, 21, 22, 23, 25)</td>
+  <td class=xl72 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl72 width=109 style='border-top:none;border-left:none;width:82pt'>○</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl71 width=96 style='border-top:none;border-left:none;width:72pt'>√+<br>
+    (Design Principles 6, 7)</td>
+  <td class=xl75 width=93 style='border-top:none;border-left:none;width:70pt'>√<br>
+    (Design Principles 6, 7)</td>
+  <td class=xl76 width=93 style='border-top:none;width:70pt'>○</td>
+  <td class=xl77 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=120 style='height:90.0pt'>
+  <td height=120 class=xl68 width=23 style='height:90.0pt;border-top:none;
+  border-left:none;width:17pt'>4</td>
+  <td class=xl69 width=197 style='border-top:none;border-left:none;width:148pt'>Utrecht</td>
+  <td class=xl70 width=105 style='border-top:none;border-left:none;width:79pt'>○</td>
+  <td class=xl71 width=136 style='border-top:none;border-left:none;width:102pt'>√+
+  <br>
+    (Design Principles 3)</td>
+  <td class=xl72 width=111 style='border-top:none;border-left:none;width:83pt'>○</td>
+  <td class=xl71 width=132 style='border-top:none;border-left:none;width:99pt'>√+
+  <br>
+    (Design Principles 1, 7, 16, 20, 21, 25)</td>
+  <td class=xl71 width=85 style='border-top:none;border-left:none;width:64pt'>√+<br>
+    (Design Principle 20, 21, 22, 23)</td>
+  <td class=xl71 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl71 width=124 style='border-top:none;border-left:none;width:93pt'>○</td>
+  <td class=xl71 width=104 style='border-top:none;border-left:none;width:78pt'>√<br>
+    (Different priorities for different modes)</td>
+  <td class=xl71 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl71 width=103 style='border-top:none;border-left:none;width:77pt'>○</td>
+  <td class=xl73 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl74 width=101 style='border-top:none;border-left:none;width:76pt'>—</td>
+  <td class=xl71 width=123 style='border-top:none;border-left:none;width:92pt'>√<br>
+    (Design Principle 3, 25)<br>
+    </td>
+  <td class=xl71 width=91 style='border-top:none;border-left:none;width:68pt'>√<br>
+    (Design Principles 20, 21, 22, 23, 25)<br>
+    </td>
+  <td class=xl72 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl72 width=109 style='border-top:none;border-left:none;width:82pt'>○</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl71 width=96 style='border-top:none;border-left:none;width:72pt'>√+<br>
+    (Design Principles 24)</td>
+  <td class=xl75 width=93 style='border-top:none;border-left:none;width:70pt'>√<br>
+    (Design Principles 24)</td>
+  <td class=xl76 width=93 style='border-top:none;width:70pt'>○</td>
+  <td class=xl77 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=140 style='height:105.0pt'>
+  <td height=140 class=xl68 width=23 style='height:105.0pt;border-top:none;
+  border-left:none;width:17pt'>5</td>
+  <td class=xl69 width=197 style='border-top:none;border-left:none;width:148pt'>Bijlmer</td>
+  <td class=xl74 width=105 style='border-top:none;border-left:none;width:79pt'>√<br>
+    </td>
+  <td class=xl71 width=136 style='border-top:none;border-left:none;width:102pt'>√+<br>
+    (Design Principles 8, 21)</td>
+  <td class=xl71 width=111 style='border-top:none;border-left:none;width:83pt'>√<br>
+    </td>
+  <td class=xl71 width=132 style='border-top:none;border-left:none;width:99pt'>√+<br>
+    (Design Principle 22)</td>
+  <td class=xl71 width=85 style='border-top:none;border-left:none;width:64pt'>√+<br>
+    (Design Principle<span style='mso-spacerun:yes'>  </span>21, 22)</td>
+  <td class=xl71 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl71 width=124 style='border-top:none;border-left:none;width:93pt'>√−<br>
+    (Peak-time Overcrowding)</td>
+  <td class=xl71 width=104 style='border-top:none;border-left:none;width:78pt'>○</td>
+  <td class=xl71 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl71 width=103 style='border-top:none;border-left:none;width:77pt'>○</td>
+  <td class=xl73 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl74 width=101 style='border-top:none;border-left:none;width:76pt'>—</td>
+  <td class=xl71 width=123 style='border-top:none;border-left:none;width:92pt'>○</td>
+  <td class=xl71 width=91 style='border-top:none;border-left:none;width:68pt'>√<br>
+    (Design Principles 21, 22)<br>
+    </td>
+  <td class=xl72 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl71 width=109 style='border-top:none;border-left:none;width:82pt'>√<br>
+    (In the building, flow separation by crowd control line, during peak times)</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl71 width=96 style='border-top:none;border-left:none;width:72pt'>√+<br>
+    </td>
+  <td class=xl75 width=93 style='border-top:none;border-left:none;width:70pt'>√<br>
+    </td>
+  <td class=xl76 width=93 style='border-top:none;width:70pt'>○</td>
+  <td class=xl77 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=120 style='height:90.0pt'>
+  <td colspan=2 rowspan=5 height=382 class=xl232 width=74 style='border-bottom:
+  1.0pt solid black;height:287.0pt;width:55pt'><font class="font5">Other cases
+  (added during iterations)</font></td>
+  <td class=xl78 width=197 style='border-top:none;border-left:none;width:148pt'>Zandvoort</td>
+  <td class=xl79 width=105 style='border-top:none;border-left:none;width:79pt'>&nbsp;</td>
+  <td class=xl80 width=136 style='border-top:none;border-left:none;width:102pt'>&nbsp;</td>
+  <td class=xl80 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl80 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl80 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl80 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl80 width=104 style='border-top:none;border-left:none;width:78pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl81 width=103 style='border-top:none;border-left:none;width:77pt'>√<br>
+    (Lack of weather-protected areas during peak times)</td>
+  <td class=xl82 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl83 width=101 style='border-top:none;border-left:none;width:76pt'>—</td>
+  <td class=xl84 width=123 style='border-top:none;border-left:none;width:92pt'>○</td>
+  <td class=xl80 width=91 style='border-top:none;border-left:none;width:68pt'>&nbsp;</td>
+  <td class=xl80 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=109 style='border-top:none;border-left:none;width:82pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl81 width=96 style='border-top:none;border-left:none;width:72pt'>√+</td>
+  <td class=xl85 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl86 width=93 style='border-top:none;width:70pt'>√<br>
+    (Schedule more trains during peak times)</td>
+  <td class=xl87 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td height=60 class=xl78 width=197 style='height:45.0pt;border-top:none;
+  border-left:none;width:148pt'>Beijing South</td>
+  <td class=xl88 width=105 style='border-top:none;border-left:none;width:79pt'>√</td>
+  <td class=xl89 width=136 style='border-top:none;border-left:none;width:102pt'>&nbsp;</td>
+  <td class=xl89 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl89 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl89 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl89 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl89 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl90 width=104 style='border-top:none;border-left:none;width:78pt'>√+<br>
+    (Design Principle 13)</td>
+  <td class=xl89 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl89 width=103 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl91 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl92 width=101 style='border-top:none;border-left:none;width:76pt'>—</td>
+  <td class=xl89 width=123 style='border-top:none;border-left:none;width:92pt'>&nbsp;</td>
+  <td class=xl93 width=91 style='border-top:none;border-left:none;width:68pt'>√+<br>
+    (Design Principle 13)</td>
+  <td class=xl89 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl89 width=109 style='border-top:none;border-left:none;width:82pt'>&nbsp;</td>
+  <td class=xl89 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl89 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl94 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl95 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl96 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=53 style='mso-height-source:userset;height:40.0pt'>
+  <td height=53 class=xl78 dir=LTR width=197 style='height:40.0pt;border-top:
+  none;border-left:none;width:148pt'>Guangzhou<span
+  style='mso-spacerun:yes'> </span></td>
+  <td class=xl97 width=105 style='border-top:none;border-left:none;width:79pt'>&nbsp;</td>
+  <td class=xl98 width=136 style='border-top:none;border-left:none;width:102pt'>√+<br>
+    (Design Principle 12)</td>
+  <td class=xl99 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl99 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl99 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl99 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl99 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl99 width=104 style='border-top:none;border-left:none;width:78pt'>&nbsp;</td>
+  <td class=xl99 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl99 width=103 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl100 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl83 width=101 style='border-top:none;border-left:none;width:76pt'>—</td>
+  <td class=xl99 width=123 style='border-top:none;border-left:none;width:92pt'>&nbsp;</td>
+  <td class=xl101 width=91 style='border-top:none;border-left:none;width:68pt'>&nbsp;</td>
+  <td class=xl102 width=101 style='border-top:none;border-left:none;width:76pt'>√ (Design
+  Principle 12)</td>
+  <td class=xl99 width=109 style='border-top:none;border-left:none;width:82pt'>&nbsp;</td>
+  <td class=xl99 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl99 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl103 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl104 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl105 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=69 style='mso-height-source:userset;height:52.0pt'>
+  <td height=69 class=xl78 dir=LTR width=197 style='height:52.0pt;border-top:
+  none;border-left:none;width:148pt'>Shanghai South</td>
+  <td class=xl97 width=105 style='border-top:none;border-left:none;width:79pt'>&nbsp;</td>
+  <td class=xl99 width=136 style='border-top:none;border-left:none;width:102pt'>&nbsp;</td>
+  <td class=xl99 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl99 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl99 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl99 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl99 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl99 width=104 style='border-top:none;border-left:none;width:78pt'>&nbsp;</td>
+  <td class=xl99 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl99 width=103 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl100 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl83 width=101 style='border-top:none;border-left:none;width:76pt'>—</td>
+  <td class=xl106 width=123 style='border-top:none;border-left:none;width:92pt'>&nbsp;</td>
+  <td class=xl107 width=91 style='border-top:none;border-left:none;width:68pt'>&nbsp;</td>
+  <td class=xl108 width=101 style='border-left:none;width:76pt'>&nbsp;</td>
+  <td colspan=2 class=xl102 width=197 style='border-left:none;width:148pt'>√<br>
+    (Design Principle 15 - Increase ticket-checking machines during peak times)</td>
+  <td class=xl106 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl109 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl110 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl111 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=80 style='height:60.0pt'>
+  <td height=80 class=xl112 dir=LTR width=197 style='height:60.0pt;border-top:
+  none;border-left:none;width:148pt'>Allianz Arena<span
+  style='mso-spacerun:yes'> </span></td>
+  <td class=xl113 width=105 style='border-top:none;border-left:none;width:79pt'>○</td>
+  <td class=xl114 width=136 style='border-top:none;border-left:none;width:102pt'>√+<br>
+    (Design Principle 18)</td>
+  <td class=xl114 width=111 style='border-top:none;border-left:none;width:83pt'>√<br>
+    </td>
+  <td class=xl114 width=132 style='border-top:none;border-left:none;width:99pt'>√−<br>
+    (Design Principle 18 - limitations)</td>
+  <td class=xl115 width=85 style='border-top:none;border-left:none;width:64pt'>○</td>
+  <td class=xl115 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl115 width=124 style='border-top:none;border-left:none;width:93pt'>○</td>
+  <td class=xl114 width=104 style='border-top:none;border-left:none;width:78pt'>√−<br>
+    (Design Principle 18 - limitations)</td>
+  <td class=xl115 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl115 width=103 style='border-top:none;border-left:none;width:77pt'>○</td>
+  <td class=xl116 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl117 width=101 style='border-top:none;border-left:none;width:76pt'>—</td>
+  <td colspan=2 class=xl219 width=214 style='border-left:none;width:160pt'>√<br>
+    (Design Principle 18)</td>
+  <td class=xl118 width=101 style='border-left:none;width:76pt'>○</td>
+  <td class=xl118 width=109 style='border-left:none;width:82pt'>○</td>
+  <td class=xl118 width=88 style='border-left:none;width:66pt'>○</td>
+  <td class=xl118 width=96 style='border-left:none;width:72pt'>○</td>
+  <td class=xl119 width=93 style='border-left:none;width:70pt'>○</td>
+  <td class=xl120 width=93 style='width:70pt'>○</td>
+  <td class=xl121 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=53 style='mso-height-source:userset;height:40.75pt'>
+  <td rowspan=23 height=985 class=xl184 width=108 style='border-bottom:1.0pt solid black;
+  height:742.75pt;border-top:none;width:81pt'><font class="font6">Case
+  Comparisons </font><font class="font5">(Any differences or commons
+  considering the different objectives /dimensions?)</font></td>
+  <td colspan=2 class=xl202 width=74 style='border-left:none;width:55pt'>1</td>
+  <td class=xl122 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Beijing West vs Beijing South</td>
+  <td class=xl123 width=105 style='border-top:none;border-left:none;width:79pt'>&nbsp;</td>
+  <td class=xl124 width=136 style='border-top:none;border-left:none;width:102pt'>&nbsp;</td>
+  <td class=xl124 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl124 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl124 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl124 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl124 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl125 width=104 style='border-top:none;border-left:none;width:78pt'>√−
+  +<br>
+    (Design Principle 13)</td>
+  <td class=xl124 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl124 width=103 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl126 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl127 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl124 width=123 style='border-top:none;border-left:none;width:92pt'>&nbsp;</td>
+  <td class=xl125 width=91 style='border-top:none;border-left:none;width:68pt'>√<br>
+    </td>
+  <td class=xl124 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl124 width=109 style='border-top:none;border-left:none;width:82pt'>&nbsp;</td>
+  <td class=xl124 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl124 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl128 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl129 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl130 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=160 style='height:120.0pt'>
+  <td colspan=2 height=160 class=xl68 width=74 style='height:120.0pt;
+  border-left:none;width:55pt'>2</td>
+  <td class=xl69 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Beijing West vs Shanghai</td>
+  <td class=xl74 width=105 style='border-top:none;border-left:none;width:79pt'>√
+  + ○<br>
+    </td>
+  <td class=xl71 width=136 style='border-top:none;border-left:none;width:102pt'>√
+  − +<br>
+    (Design Principles 5, 22)</td>
+  <td class=xl71 width=111 style='border-top:none;border-left:none;width:83pt'>√<br>
+    </td>
+  <td class=xl71 width=132 style='border-top:none;border-left:none;width:99pt'>√<br>
+    </td>
+  <td class=xl71 width=85 style='border-top:none;border-left:none;width:64pt'>√
+  − +<br>
+    (Design Principle 21, 22)</td>
+  <td class=xl71 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl71 width=124 style='border-top:none;border-left:none;width:93pt'>√
+  − +<br>
+    (Design Principle 5)</td>
+  <td class=xl71 width=104 style='border-top:none;border-left:none;width:78pt'>○</td>
+  <td class=xl71 width=88 style='border-top:none;border-left:none;width:66pt'>√
+  + −<br>
+    (Hard wayfinding in Underground spaces)</td>
+  <td class=xl71 width=103 style='border-top:none;border-left:none;width:77pt'>○</td>
+  <td class=xl73 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl74 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl71 width=123 style='border-top:none;border-left:none;width:92pt'>√<br>
+    (Design Principle 5)</td>
+  <td class=xl71 width=91 style='border-top:none;border-left:none;width:68pt'>√<br>
+    (Design Principle 21, 22, 23)</td>
+  <td class=xl72 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl71 width=109 style='border-top:none;border-left:none;width:82pt'>√<br>
+    (Path Regulations during peak times; The Time period allowed for entering)</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl71 width=96 style='border-top:none;border-left:none;width:72pt'>√
+  − +<br>
+    (Design Principle 7)</td>
+  <td class=xl75 width=93 style='border-top:none;border-left:none;width:70pt'>√<br>
+    (Design Principles 6, 7)</td>
+  <td class=xl76 width=93 style='border-top:none;width:70pt'>○</td>
+  <td class=xl77 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=101 style='mso-height-source:userset;height:76.0pt'>
+  <td colspan=2 height=101 class=xl68 width=74 style='height:76.0pt;border-left:
+  none;width:55pt'>3</td>
+  <td class=xl69 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Beijing West vs Rotterdam</td>
+  <td class=xl74 width=105 style='border-top:none;border-left:none;width:79pt'>√
+  + ○<br>
+    (Research objective)</td>
+  <td class=xl71 width=136 style='border-top:none;border-left:none;width:102pt'>√
+  − +<br>
+    (Design Principles 8, 21)</td>
+  <td class=xl71 width=111 style='border-top:none;border-left:none;width:83pt'>√
+  ○</td>
+  <td class=xl71 width=132 style='border-top:none;border-left:none;width:99pt'>√
+  − +<br>
+    (Design Principles 6, 7, 21, 22, 23, 25)</td>
+  <td class=xl71 width=85 style='border-top:none;border-left:none;width:64pt'>√
+  − +<br>
+    (Design Principle 21, 22, 23, 25)</td>
+  <td class=xl71 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl71 width=124 style='border-top:none;border-left:none;width:93pt'>√
+  − +<br>
+    (Design Principle 8)</td>
+  <td class=xl71 width=104 style='border-top:none;border-left:none;width:78pt'>√−
+  +<br>
+    (Design Principle - Human scale)</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl71 width=103 style='border-top:none;border-left:none;width:77pt'>○</td>
+  <td class=xl73 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl74 width=101 style='border-top:none;border-left:none;width:76pt'>√<br>
+    (Station Typology implied)</td>
+  <td colspan=2 class=xl71 width=214 style='border-left:none;width:160pt'>√<br>
+    (Different flow patterns, paths, and layouts)</td>
+  <td class=xl72 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl71 width=109 style='border-top:none;border-left:none;width:82pt'>√<br>
+    (With/Without security checks)</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl71 width=96 style='border-top:none;border-left:none;width:72pt'>√
+  − +<br>
+    (Design Principle 6)</td>
+  <td class=xl75 width=93 style='border-top:none;border-left:none;width:70pt'>√<br>
+    (Design Principle 6)</td>
+  <td class=xl76 width=93 style='border-top:none;width:70pt'>○</td>
+  <td class=xl77 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td colspan=2 height=60 class=xl68 width=74 style='height:45.0pt;border-left:
+  none;width:55pt'>4</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Beijing West vs Utrecht</td>
+  <td class=xl79 width=105 style='border-top:none;border-left:none;width:79pt'>&nbsp;</td>
+  <td class=xl80 width=136 style='border-top:none;border-left:none;width:102pt'>&nbsp;</td>
+  <td class=xl80 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl80 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl80 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl80 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl80 width=104 style='border-top:none;border-left:none;width:78pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=103 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl82 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl131 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=123 style='border-top:none;border-left:none;width:92pt'>&nbsp;</td>
+  <td class=xl80 width=91 style='border-top:none;border-left:none;width:68pt'>&nbsp;</td>
+  <td class=xl80 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=109 style='border-top:none;border-left:none;width:82pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl81 width=96 style='border-top:none;border-left:none;width:72pt'>√
+  − +<br>
+    (Design Principle 24)</td>
+  <td class=xl132 width=93 style='border-top:none;border-left:none;width:70pt'>√<br>
+    (Design Principle 24)</td>
+  <td class=xl133 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl134 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:16.0pt'>
+  <td colspan=2 height=21 class=xl68 width=74 style='height:16.0pt;border-left:
+  none;width:55pt'>5</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Beijing West vs Bijlmer</td>
+  <td class=xl79 width=105 style='border-top:none;border-left:none;width:79pt'>&nbsp;</td>
+  <td class=xl80 width=136 style='border-top:none;border-left:none;width:102pt'>&nbsp;</td>
+  <td class=xl80 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl80 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl80 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl80 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl80 width=104 style='border-top:none;border-left:none;width:78pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=103 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl82 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl131 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=123 style='border-top:none;border-left:none;width:92pt'>&nbsp;</td>
+  <td class=xl80 width=91 style='border-top:none;border-left:none;width:68pt'>&nbsp;</td>
+  <td class=xl80 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=109 style='border-top:none;border-left:none;width:82pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl135 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl133 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl134 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:16.0pt'>
+  <td colspan=2 height=21 class=xl68 width=74 style='height:16.0pt;border-left:
+  none;width:55pt'>6</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Beijing West vs Zandvoort</td>
+  <td class=xl79 width=105 style='border-top:none;border-left:none;width:79pt'>&nbsp;</td>
+  <td class=xl80 width=136 style='border-top:none;border-left:none;width:102pt'>&nbsp;</td>
+  <td class=xl80 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl80 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl80 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl80 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl80 width=104 style='border-top:none;border-left:none;width:78pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=103 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl82 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl131 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=123 style='border-top:none;border-left:none;width:92pt'>&nbsp;</td>
+  <td class=xl80 width=91 style='border-top:none;border-left:none;width:68pt'>&nbsp;</td>
+  <td class=xl80 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=109 style='border-top:none;border-left:none;width:82pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl135 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl133 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl134 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:16.0pt'>
+  <td colspan=2 height=21 class=xl68 width=74 style='height:16.0pt;border-left:
+  none;width:55pt'>7</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Beijing South vs Shanghai</td>
+  <td class=xl79 width=105 style='border-top:none;border-left:none;width:79pt'>&nbsp;</td>
+  <td class=xl80 width=136 style='border-top:none;border-left:none;width:102pt'>&nbsp;</td>
+  <td class=xl80 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl80 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl80 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl80 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl80 width=104 style='border-top:none;border-left:none;width:78pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=103 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl82 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl131 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=123 style='border-top:none;border-left:none;width:92pt'>&nbsp;</td>
+  <td class=xl80 width=91 style='border-top:none;border-left:none;width:68pt'>&nbsp;</td>
+  <td class=xl80 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=109 style='border-top:none;border-left:none;width:82pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl135 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl133 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl134 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=2 height=20 class=xl68 width=74 style='height:15.0pt;border-left:
+  none;width:55pt'>8</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Beijing South vs Rotterdam</td>
+  <td class=xl79 width=105 style='border-top:none;border-left:none;width:79pt'>&nbsp;</td>
+  <td class=xl80 width=136 style='border-top:none;border-left:none;width:102pt'>&nbsp;</td>
+  <td class=xl80 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl80 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl80 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl80 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl80 width=104 style='border-top:none;border-left:none;width:78pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=103 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl82 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl131 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=123 style='border-top:none;border-left:none;width:92pt'>&nbsp;</td>
+  <td class=xl80 width=91 style='border-top:none;border-left:none;width:68pt'>&nbsp;</td>
+  <td class=xl80 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=109 style='border-top:none;border-left:none;width:82pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl135 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl133 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl134 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:16.0pt'>
+  <td colspan=2 height=21 class=xl68 width=74 style='height:16.0pt;border-left:
+  none;width:55pt'>9</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Beijing South vs Utrecht</td>
+  <td class=xl79 width=105 style='border-top:none;border-left:none;width:79pt'>&nbsp;</td>
+  <td class=xl80 width=136 style='border-top:none;border-left:none;width:102pt'>&nbsp;</td>
+  <td class=xl80 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl80 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl80 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl80 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl80 width=104 style='border-top:none;border-left:none;width:78pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=103 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl82 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl131 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=123 style='border-top:none;border-left:none;width:92pt'>&nbsp;</td>
+  <td class=xl80 width=91 style='border-top:none;border-left:none;width:68pt'>&nbsp;</td>
+  <td class=xl80 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=109 style='border-top:none;border-left:none;width:82pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl135 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl133 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl134 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:16.0pt'>
+  <td colspan=2 height=21 class=xl68 width=74 style='height:16.0pt;border-left:
+  none;width:55pt'>10</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Beijing South vs Bijlmer</td>
+  <td class=xl79 width=105 style='border-top:none;border-left:none;width:79pt'>&nbsp;</td>
+  <td class=xl80 width=136 style='border-top:none;border-left:none;width:102pt'>&nbsp;</td>
+  <td class=xl80 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl80 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl80 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl80 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl80 width=104 style='border-top:none;border-left:none;width:78pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=103 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl82 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl131 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=123 style='border-top:none;border-left:none;width:92pt'>&nbsp;</td>
+  <td class=xl80 width=91 style='border-top:none;border-left:none;width:68pt'>&nbsp;</td>
+  <td class=xl80 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=109 style='border-top:none;border-left:none;width:82pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl135 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl133 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl134 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=2 height=20 class=xl68 width=74 style='height:15.0pt;border-left:
+  none;width:55pt'>11</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Beijing South vs Zandvoort</td>
+  <td class=xl79 width=105 style='border-top:none;border-left:none;width:79pt'>&nbsp;</td>
+  <td class=xl80 width=136 style='border-top:none;border-left:none;width:102pt'>&nbsp;</td>
+  <td class=xl80 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl80 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl80 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl80 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl80 width=104 style='border-top:none;border-left:none;width:78pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=103 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl82 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl131 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=123 style='border-top:none;border-left:none;width:92pt'>&nbsp;</td>
+  <td class=xl80 width=91 style='border-top:none;border-left:none;width:68pt'>&nbsp;</td>
+  <td class=xl80 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=109 style='border-top:none;border-left:none;width:82pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl135 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl133 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl134 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=80 style='height:60.0pt'>
+  <td colspan=2 height=80 class=xl68 width=74 style='height:60.0pt;border-left:
+  none;width:55pt'>12</td>
+  <td class=xl69 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Shanghai vs Rotterdam</td>
+  <td class=xl70 width=105 style='border-top:none;border-left:none;width:79pt'>○</td>
+  <td class=xl72 width=136 style='border-top:none;border-left:none;width:102pt'>○</td>
+  <td class=xl72 width=111 style='border-top:none;border-left:none;width:83pt'>○</td>
+  <td class=xl71 width=132 style='border-top:none;border-left:none;width:99pt'>√
+  + +<br>
+    (Design Principle 22)</td>
+  <td class=xl71 width=85 style='border-top:none;border-left:none;width:64pt'>√
+  + +<br>
+    (Design Principles 22, 23)</td>
+  <td class=xl71 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl71 width=124 style='border-top:none;border-left:none;width:93pt'>○</td>
+  <td class=xl71 width=104 style='border-top:none;border-left:none;width:78pt'>√
+  − +<br>
+    (Security checks)</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl71 width=103 style='border-top:none;border-left:none;width:77pt'>○</td>
+  <td class=xl73 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl74 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td colspan=2 class=xl71 width=214 style='border-left:none;width:160pt'>√<br>
+    (Different flow patterns, paths, and layouts)</td>
+  <td class=xl72 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl72 width=109 style='border-top:none;border-left:none;width:82pt'>○</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl71 width=96 style='border-top:none;border-left:none;width:72pt'>√
+  − +<br>
+    (Design Principle 6)</td>
+  <td class=xl75 width=93 style='border-top:none;border-left:none;width:70pt'>√<br>
+    (Design Principle 6)</td>
+  <td class=xl76 width=93 style='border-top:none;width:70pt'>○</td>
+  <td class=xl77 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td colspan=2 height=60 class=xl68 width=74 style='height:45.0pt;border-left:
+  none;width:55pt'>13</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Shanghai vs Utrecht</td>
+  <td class=xl79 width=105 style='border-top:none;border-left:none;width:79pt'>&nbsp;</td>
+  <td class=xl80 width=136 style='border-top:none;border-left:none;width:102pt'>&nbsp;</td>
+  <td class=xl80 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl80 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl80 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl80 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl80 width=104 style='border-top:none;border-left:none;width:78pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=103 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl82 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl131 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=123 style='border-top:none;border-left:none;width:92pt'>&nbsp;</td>
+  <td class=xl80 width=91 style='border-top:none;border-left:none;width:68pt'>&nbsp;</td>
+  <td class=xl80 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=109 style='border-top:none;border-left:none;width:82pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl81 width=96 style='border-top:none;border-left:none;width:72pt'>√
+  − +<br>
+    (Design Principle 24)</td>
+  <td class=xl132 width=93 style='border-top:none;border-left:none;width:70pt'>√<br>
+    (Design Principle 24)</td>
+  <td class=xl133 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl134 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=2 height=20 class=xl68 width=74 style='height:15.0pt;border-left:
+  none;width:55pt'>14</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Shanghai vs Bijlmer</td>
+  <td class=xl79 width=105 style='border-top:none;border-left:none;width:79pt'>&nbsp;</td>
+  <td class=xl80 width=136 style='border-top:none;border-left:none;width:102pt'>&nbsp;</td>
+  <td class=xl80 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl80 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl80 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl80 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl80 width=104 style='border-top:none;border-left:none;width:78pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=103 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl82 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl131 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=123 style='border-top:none;border-left:none;width:92pt'>&nbsp;</td>
+  <td class=xl80 width=91 style='border-top:none;border-left:none;width:68pt'>&nbsp;</td>
+  <td class=xl80 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=109 style='border-top:none;border-left:none;width:82pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl135 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl133 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl134 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:16.0pt'>
+  <td colspan=2 height=21 class=xl68 width=74 style='height:16.0pt;border-left:
+  none;width:55pt'>15</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Shanghai vs Zandvoort</td>
+  <td class=xl79 width=105 style='border-top:none;border-left:none;width:79pt'>&nbsp;</td>
+  <td class=xl80 width=136 style='border-top:none;border-left:none;width:102pt'>&nbsp;</td>
+  <td class=xl80 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl80 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl80 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl80 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl80 width=104 style='border-top:none;border-left:none;width:78pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=103 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl82 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl131 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=123 style='border-top:none;border-left:none;width:92pt'>&nbsp;</td>
+  <td class=xl80 width=91 style='border-top:none;border-left:none;width:68pt'>&nbsp;</td>
+  <td class=xl80 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=109 style='border-top:none;border-left:none;width:82pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl135 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl133 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl134 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:16.0pt'>
+  <td colspan=2 height=21 class=xl68 width=74 style='height:16.0pt;border-left:
+  none;width:55pt'>16</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Rotterdam vs Utrecht</td>
+  <td class=xl79 width=105 style='border-top:none;border-left:none;width:79pt'>&nbsp;</td>
+  <td class=xl80 width=136 style='border-top:none;border-left:none;width:102pt'>&nbsp;</td>
+  <td class=xl80 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl80 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl80 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl80 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl80 width=104 style='border-top:none;border-left:none;width:78pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=103 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl82 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl131 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=123 style='border-top:none;border-left:none;width:92pt'>&nbsp;</td>
+  <td class=xl80 width=91 style='border-top:none;border-left:none;width:68pt'>&nbsp;</td>
+  <td class=xl80 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=109 style='border-top:none;border-left:none;width:82pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl135 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl133 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl134 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:16.0pt'>
+  <td colspan=2 height=21 class=xl68 width=74 style='height:16.0pt;border-left:
+  none;width:55pt'>17</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Rotterdam vs Bijlmer</td>
+  <td class=xl79 width=105 style='border-top:none;border-left:none;width:79pt'>&nbsp;</td>
+  <td class=xl80 width=136 style='border-top:none;border-left:none;width:102pt'>&nbsp;</td>
+  <td class=xl80 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl80 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl80 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl80 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl80 width=104 style='border-top:none;border-left:none;width:78pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=103 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl82 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl131 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=123 style='border-top:none;border-left:none;width:92pt'>&nbsp;</td>
+  <td class=xl80 width=91 style='border-top:none;border-left:none;width:68pt'>&nbsp;</td>
+  <td class=xl80 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=109 style='border-top:none;border-left:none;width:82pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl135 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl133 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl134 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:16.0pt'>
+  <td colspan=2 height=21 class=xl68 width=74 style='height:16.0pt;border-left:
+  none;width:55pt'>18</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Rotterdam vs Zandvoort</td>
+  <td class=xl79 width=105 style='border-top:none;border-left:none;width:79pt'>&nbsp;</td>
+  <td class=xl80 width=136 style='border-top:none;border-left:none;width:102pt'>&nbsp;</td>
+  <td class=xl80 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl80 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl80 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl80 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl80 width=104 style='border-top:none;border-left:none;width:78pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=103 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl82 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl131 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=123 style='border-top:none;border-left:none;width:92pt'>&nbsp;</td>
+  <td class=xl80 width=91 style='border-top:none;border-left:none;width:68pt'>&nbsp;</td>
+  <td class=xl80 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=109 style='border-top:none;border-left:none;width:82pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl135 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl133 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl134 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:16.0pt'>
+  <td colspan=2 height=21 class=xl68 width=74 style='height:16.0pt;border-left:
+  none;width:55pt'>19</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Utrecht vs Bijlmer</td>
+  <td class=xl79 width=105 style='border-top:none;border-left:none;width:79pt'>&nbsp;</td>
+  <td class=xl80 width=136 style='border-top:none;border-left:none;width:102pt'>&nbsp;</td>
+  <td class=xl80 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl80 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl80 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl80 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl80 width=104 style='border-top:none;border-left:none;width:78pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=103 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl82 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl131 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=123 style='border-top:none;border-left:none;width:92pt'>&nbsp;</td>
+  <td class=xl80 width=91 style='border-top:none;border-left:none;width:68pt'>&nbsp;</td>
+  <td class=xl80 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=109 style='border-top:none;border-left:none;width:82pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl135 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl133 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl134 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:16.0pt'>
+  <td colspan=2 height=21 class=xl68 width=74 style='height:16.0pt;border-left:
+  none;width:55pt'>20</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Utrecht vs Zandvoort</td>
+  <td class=xl79 width=105 style='border-top:none;border-left:none;width:79pt'>&nbsp;</td>
+  <td class=xl80 width=136 style='border-top:none;border-left:none;width:102pt'>&nbsp;</td>
+  <td class=xl80 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl80 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl80 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl80 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl80 width=104 style='border-top:none;border-left:none;width:78pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=103 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl82 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl131 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=123 style='border-top:none;border-left:none;width:92pt'>&nbsp;</td>
+  <td class=xl80 width=91 style='border-top:none;border-left:none;width:68pt'>&nbsp;</td>
+  <td class=xl80 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=109 style='border-top:none;border-left:none;width:82pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl135 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl133 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl134 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=2 height=20 class=xl68 width=74 style='height:15.0pt;border-left:
+  none;width:55pt'>21</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Bijlmer vs Zandvoort</td>
+  <td class=xl79 width=105 style='border-top:none;border-left:none;width:79pt'>&nbsp;</td>
+  <td class=xl80 width=136 style='border-top:none;border-left:none;width:102pt'>&nbsp;</td>
+  <td class=xl80 width=111 style='border-top:none;border-left:none;width:83pt'>&nbsp;</td>
+  <td class=xl80 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl80 width=85 style='border-top:none;border-left:none;width:64pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl80 width=124 style='border-top:none;border-left:none;width:93pt'>&nbsp;</td>
+  <td class=xl80 width=104 style='border-top:none;border-left:none;width:78pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=103 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl82 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl131 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=123 style='border-top:none;border-left:none;width:92pt'>&nbsp;</td>
+  <td class=xl80 width=91 style='border-top:none;border-left:none;width:68pt'>&nbsp;</td>
+  <td class=xl80 width=101 style='border-top:none;border-left:none;width:76pt'>&nbsp;</td>
+  <td class=xl80 width=109 style='border-top:none;border-left:none;width:82pt'>&nbsp;</td>
+  <td class=xl80 width=88 style='border-top:none;border-left:none;width:66pt'>&nbsp;</td>
+  <td class=xl80 width=96 style='border-top:none;border-left:none;width:72pt'>&nbsp;</td>
+  <td class=xl135 width=93 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl133 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl134 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=80 style='height:60.0pt'>
+  <td colspan=2 height=80 class=xl68 width=74 style='height:60.0pt;border-left:
+  none;width:55pt'>&nbsp;</td>
+  <td class=xl69 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Utrecht new vs Utrecht old</td>
+  <td class=xl74 width=105 style='border-top:none;border-left:none;width:79pt'>√
+  ○ +<br>
+    </td>
+  <td class=xl71 width=136 style='border-top:none;border-left:none;width:102pt'>√
+  + −<br>
+    (Design Principles 3, 21, 22)</td>
+  <td class=xl71 width=111 style='border-top:none;border-left:none;width:83pt'>○</td>
+  <td class=xl71 width=132 style='border-top:none;border-left:none;width:99pt'>√
+  + −<br>
+    (Design Principles 23, 24, 25)</td>
+  <td class=xl71 width=85 style='border-top:none;border-left:none;width:64pt'>√
+  + −<br>
+    (Design Principles 22, 23)</td>
+  <td class=xl71 width=96 style='border-top:none;border-left:none;width:72pt'>√
+  + −<br>
+    (Design Principles 3, 21)</td>
+  <td class=xl71 width=124 style='border-top:none;border-left:none;width:93pt'>√
+  + −<br>
+    (Design Principle 18)</td>
+  <td class=xl71 width=104 style='border-top:none;border-left:none;width:78pt'>○</td>
+  <td class=xl71 width=88 style='border-top:none;border-left:none;width:66pt'>√
+  + −<br>
+    (Design Principle 3)</td>
+  <td class=xl71 width=103 style='border-top:none;border-left:none;width:77pt'>○</td>
+  <td class=xl73 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl74 width=101 style='border-top:none;border-left:none;width:76pt'>—</td>
+  <td class=xl71 width=123 style='border-top:none;border-left:none;width:92pt'>√<br>
+    (Design Principles 3, 25)</td>
+  <td class=xl71 width=91 style='border-top:none;border-left:none;width:68pt'>√<br>
+    (Design Principles 21, 25)</td>
+  <td class=xl72 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl72 width=109 style='border-top:none;border-left:none;width:82pt'>○</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl72 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl136 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl76 width=93 style='border-top:none;width:70pt'>○</td>
+  <td class=xl77 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=80 style='height:60.0pt'>
+  <td colspan=2 height=80 class=xl205 width=74 style='height:60.0pt;border-left:
+  none;width:55pt'>&nbsp;</td>
+  <td class=xl137 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'>Rotterdam new vs Rotterdam old</td>
+  <td class=xl138 width=105 style='border-top:none;border-left:none;width:79pt'>√
+  ○ +<br>
+    </td>
+  <td class=xl139 width=136 style='border-top:none;border-left:none;width:102pt'>√
+  + −<br>
+    (Design Principles 8, 18)</td>
+  <td class=xl139 width=111 style='border-top:none;border-left:none;width:83pt'>○</td>
+  <td class=xl139 width=132 style='border-top:none;border-left:none;width:99pt'>√
+  + −<br>
+    (Design Principles 6, 7, 25)</td>
+  <td class=xl139 width=85 style='border-top:none;border-left:none;width:64pt'>○</td>
+  <td class=xl139 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl139 width=124 style='border-top:none;border-left:none;width:93pt'>√
+  + −<br>
+    (Design Principle 8)</td>
+  <td class=xl139 width=104 style='border-top:none;border-left:none;width:78pt'>○</td>
+  <td class=xl139 width=88 style='border-top:none;border-left:none;width:66pt'>√
+  + −<br>
+    (Image of the station building)</td>
+  <td class=xl139 width=103 style='border-top:none;border-left:none;width:77pt'>√
+  + −<br>
+    (Seatings)</td>
+  <td class=xl140 width=93 style='border-top:none;border-left:none;width:70pt'>√
+  + −<br>
+    (Design Principle 7)</td>
+  <td class=xl138 width=101 style='border-top:none;border-left:none;width:76pt'>—</td>
+  <td class=xl139 width=123 style='border-top:none;border-left:none;width:92pt'>√<br>
+    (Design Principles 7,<span style='mso-spacerun:yes'>  </span>25)</td>
+  <td class=xl139 width=91 style='border-top:none;border-left:none;width:68pt'>√<br>
+    (Design Principle<span style='mso-spacerun:yes'>  </span>25)</td>
+  <td class=xl141 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl141 width=109 style='border-top:none;border-left:none;width:82pt'>○</td>
+  <td class=xl141 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl139 width=96 style='border-top:none;border-left:none;width:72pt'>√
+  +<span style='mso-spacerun:yes'>  </span>−<br>
+    (Design Principle 7)</td>
+  <td class=xl142 width=93 style='border-top:none;border-left:none;width:70pt'>√<br>
+    (Design Principle 7)</td>
+  <td class=xl143 width=93 style='border-top:none;width:70pt'>○</td>
+  <td class=xl144 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=40 style='height:30.0pt'>
+  <td rowspan=12 height=840 class=xl184 width=108 style='border-bottom:1.0pt solid black;
+  height:630.0pt;border-top:none;width:81pt'>Literature</td>
+  <td colspan=2 class=xl202 width=74 style='border-left:none;width:55pt'>1</td>
+  <td class=xl166 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'><a href="https://doi.org/10.1080/13574809.2020.1814133"><span
+  style='color:black;font-size:11.0pt'>(Van Acker &amp; Triggianese, 2021)</span></a></td>
+  <td class=xl145 width=105 style='border-top:none;border-left:none;width:79pt'>○</td>
+  <td class=xl66 width=136 style='border-top:none;border-left:none;width:102pt'>○</td>
+  <td class=xl66 width=111 style='border-top:none;border-left:none;width:83pt'>○</td>
+  <td class=xl66 width=132 style='border-top:none;border-left:none;width:99pt'>○</td>
+  <td class=xl66 width=85 style='border-top:none;border-left:none;width:64pt'>○</td>
+  <td class=xl66 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl66 width=124 style='border-top:none;border-left:none;width:93pt'>○</td>
+  <td class=xl66 width=104 style='border-top:none;border-left:none;width:78pt'>○</td>
+  <td class=xl66 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl66 width=103 style='border-top:none;border-left:none;width:77pt'>○</td>
+  <td class=xl67 width=93 style='border-top:none;border-left:none;width:70pt'>√<br>
+    </td>
+  <td class=xl65 width=101 style='border-top:none;border-left:none;width:76pt'>(Spatial
+  Scale of Stations)</td>
+  <td class=xl66 width=123 style='border-top:none;border-left:none;width:92pt'>○</td>
+  <td class=xl66 width=91 style='border-top:none;border-left:none;width:68pt'>○</td>
+  <td class=xl66 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl66 width=109 style='border-top:none;border-left:none;width:82pt'>○</td>
+  <td class=xl66 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl66 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl146 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl147 width=93 style='border-top:none;width:70pt'>○</td>
+  <td class=xl148 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td colspan=2 height=60 class=xl68 width=74 style='height:45.0pt;border-left:
+  none;width:55pt'>2</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'><a
+  href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&amp;dbname=CJFDLAST2019&amp;filename=JZJY201907006&amp;uniplatform=NZKPT&amp;v=OU5YSljVJG6QZHCVz6yj5XPIzRan8ROgR7_ZV8RTYi5wfa4Snj-J_yB9onw-uYBP"><span
+  style='color:black;font-size:11.0pt;text-decoration:none'><font class="font7">(Guangping
+  &amp; guanyu, 2019)</font></span></a></td>
+  <td class=xl70 width=105 style='border-top:none;border-left:none;width:79pt'>○</td>
+  <td class=xl72 width=136 style='border-top:none;border-left:none;width:102pt'>○</td>
+  <td class=xl72 width=111 style='border-top:none;border-left:none;width:83pt'>○</td>
+  <td class=xl72 width=132 style='border-top:none;border-left:none;width:99pt'>○</td>
+  <td class=xl72 width=85 style='border-top:none;border-left:none;width:64pt'>○</td>
+  <td class=xl72 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl72 width=124 style='border-top:none;border-left:none;width:93pt'>○</td>
+  <td class=xl72 width=104 style='border-top:none;border-left:none;width:78pt'>○</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl72 width=103 style='border-top:none;border-left:none;width:77pt'>○</td>
+  <td class=xl149 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl70 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl71 width=123 style='border-top:none;border-left:none;width:92pt'>√<br>
+    (Design Principle 2)</td>
+  <td class=xl72 width=91 style='border-top:none;border-left:none;width:68pt'>○</td>
+  <td class=xl72 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl72 width=109 style='border-top:none;border-left:none;width:82pt'>○</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl72 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl136 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl150 width=93 style='border-top:none;width:70pt'>○</td>
+  <td class=xl151 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td colspan=2 height=60 class=xl68 width=74 style='height:45.0pt;border-left:
+  none;width:55pt'>3</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'><a href="http://ijapas.ir/index.php/ijapas/article/view/33"><span
+  style='color:black;font-size:11.0pt;text-decoration:none'><font class="font7">(Ardeshiri
+  et al., 2016)</font></span></a></td>
+  <td class=xl70 width=105 style='border-top:none;border-left:none;width:79pt'>○</td>
+  <td class=xl72 width=136 style='border-top:none;border-left:none;width:102pt'>○</td>
+  <td class=xl72 width=111 style='border-top:none;border-left:none;width:83pt'>○</td>
+  <td class=xl72 width=132 style='border-top:none;border-left:none;width:99pt'>○</td>
+  <td class=xl72 width=85 style='border-top:none;border-left:none;width:64pt'>○</td>
+  <td class=xl72 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl72 width=124 style='border-top:none;border-left:none;width:93pt'>○</td>
+  <td class=xl72 width=104 style='border-top:none;border-left:none;width:78pt'>○</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl72 width=103 style='border-top:none;border-left:none;width:77pt'>○</td>
+  <td class=xl73 width=93 style='border-top:none;border-left:none;width:70pt'>√<br>
+    (Design Principle 7)</td>
+  <td class=xl70 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl72 width=123 style='border-top:none;border-left:none;width:92pt'>○</td>
+  <td class=xl72 width=91 style='border-top:none;border-left:none;width:68pt'>○</td>
+  <td class=xl72 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl72 width=109 style='border-top:none;border-left:none;width:82pt'>○</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl72 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl136 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl150 width=93 style='border-top:none;width:70pt'>○</td>
+  <td class=xl151 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td colspan=2 height=60 class=xl68 width=74 style='height:45.0pt;border-left:
+  none;width:55pt'>4</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'><a
+  href="https://research.tudelft.nl/en/publications/design-for-change-flexibility-key-performance-indicators"><span
+  style='color:black;font-size:11.0pt;text-decoration:none'><font class="font7">(Geraedts,
+  2008)</font></span></a></td>
+  <td class=xl70 width=105 style='border-top:none;border-left:none;width:79pt'>○</td>
+  <td class=xl72 width=136 style='border-top:none;border-left:none;width:102pt'>○</td>
+  <td class=xl72 width=111 style='border-top:none;border-left:none;width:83pt'>○</td>
+  <td class=xl72 width=132 style='border-top:none;border-left:none;width:99pt'>○</td>
+  <td class=xl72 width=85 style='border-top:none;border-left:none;width:64pt'>○</td>
+  <td class=xl72 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl72 width=124 style='border-top:none;border-left:none;width:93pt'>○</td>
+  <td class=xl72 width=104 style='border-top:none;border-left:none;width:78pt'>○</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl72 width=103 style='border-top:none;border-left:none;width:77pt'>○</td>
+  <td class=xl149 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl70 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl71 width=123 style='border-top:none;border-left:none;width:92pt'>√<br>
+    (Design Principles 14, 15)</td>
+  <td class=xl72 width=91 style='border-top:none;border-left:none;width:68pt'>○</td>
+  <td class=xl72 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl72 width=109 style='border-top:none;border-left:none;width:82pt'>○</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl72 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl136 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl150 width=93 style='border-top:none;width:70pt'>○</td>
+  <td class=xl151 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td colspan=2 height=60 class=xl68 width=74 style='height:45.0pt;border-left:
+  none;width:55pt'>5</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'><a href="https://doi.org/10.1080/09654310500242048"><span
+  style='color:black;font-size:11.0pt;text-decoration:none'><font class="font7">(Hoppenbrouwer
+  &amp; Louw, 2005)</font></span></a></td>
+  <td class=xl70 width=105 style='border-top:none;border-left:none;width:79pt'>○</td>
+  <td class=xl72 width=136 style='border-top:none;border-left:none;width:102pt'>○</td>
+  <td class=xl72 width=111 style='border-top:none;border-left:none;width:83pt'>○</td>
+  <td class=xl72 width=132 style='border-top:none;border-left:none;width:99pt'>○</td>
+  <td class=xl72 width=85 style='border-top:none;border-left:none;width:64pt'>○</td>
+  <td class=xl72 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl72 width=124 style='border-top:none;border-left:none;width:93pt'>○</td>
+  <td class=xl72 width=104 style='border-top:none;border-left:none;width:78pt'>○</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl72 width=103 style='border-top:none;border-left:none;width:77pt'>○</td>
+  <td class=xl149 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl70 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl72 width=123 style='border-top:none;border-left:none;width:92pt'>○</td>
+  <td class=xl72 width=91 style='border-top:none;border-left:none;width:68pt'>○</td>
+  <td class=xl71 width=101 style='border-top:none;border-left:none;width:76pt'>√<br>
+    (Design Principle 1)</td>
+  <td class=xl72 width=109 style='border-top:none;border-left:none;width:82pt'>○</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl72 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl136 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl150 width=93 style='border-top:none;width:70pt'>○</td>
+  <td class=xl151 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td colspan=2 height=60 class=xl68 width=74 style='height:45.0pt;border-left:
+  none;width:55pt'>6</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'><a
+  href="https://etd.ohiolink.edu/apexprod/rws_olink/r/1501/10?clear=10&amp;p10_accession_num=ucin1178910196"><span
+  style='color:black;font-size:11.0pt;text-decoration:none'><font class="font7">(Kelpe,
+  2007)</font></span></a></td>
+  <td class=xl70 width=105 style='border-top:none;border-left:none;width:79pt'>○</td>
+  <td class=xl72 width=136 style='border-top:none;border-left:none;width:102pt'>○</td>
+  <td class=xl72 width=111 style='border-top:none;border-left:none;width:83pt'>○</td>
+  <td class=xl71 width=132 style='border-top:none;border-left:none;width:99pt'>√<br>
+    (Design Principle 16, 17)</td>
+  <td class=xl72 width=85 style='border-top:none;border-left:none;width:64pt'>○</td>
+  <td class=xl72 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl72 width=124 style='border-top:none;border-left:none;width:93pt'>○</td>
+  <td class=xl72 width=104 style='border-top:none;border-left:none;width:78pt'>○</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl72 width=103 style='border-top:none;border-left:none;width:77pt'>○</td>
+  <td class=xl149 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl70 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl71 width=123 style='border-top:none;border-left:none;width:92pt'>√<br>
+    (Design Principle 17)</td>
+  <td class=xl72 width=91 style='border-top:none;border-left:none;width:68pt'>○</td>
+  <td class=xl72 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl72 width=109 style='border-top:none;border-left:none;width:82pt'>○</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl72 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl136 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl150 width=93 style='border-top:none;width:70pt'>○</td>
+  <td class=xl151 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td colspan=2 height=60 class=xl68 width=74 style='height:45.0pt;border-left:
+  none;width:55pt'>7</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'><a
+  href="https://repository.tudelft.nl/record/uuid:80db046d-13f3-49a1-bc70-e87f5d3c5575"><span
+  style='color:black;font-size:11.0pt;text-decoration:none'><font class="font7">(Smith,
+  2023)</font></span></a></td>
+  <td class=xl70 width=105 style='border-top:none;border-left:none;width:79pt'>○</td>
+  <td class=xl72 width=136 style='border-top:none;border-left:none;width:102pt'>○</td>
+  <td class=xl72 width=111 style='border-top:none;border-left:none;width:83pt'>○</td>
+  <td class=xl152 width=132 style='border-top:none;border-left:none;width:99pt'>&nbsp;</td>
+  <td class=xl72 width=85 style='border-top:none;border-left:none;width:64pt'>○</td>
+  <td class=xl72 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl72 width=124 style='border-top:none;border-left:none;width:93pt'>○</td>
+  <td class=xl72 width=104 style='border-top:none;border-left:none;width:78pt'>○</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl72 width=103 style='border-top:none;border-left:none;width:77pt'>○</td>
+  <td class=xl149 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl70 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl71 width=123 style='border-top:none;border-left:none;width:92pt'>√<br>
+    (Design Principles 14, 15)</td>
+  <td class=xl72 width=91 style='border-top:none;border-left:none;width:68pt'>○</td>
+  <td class=xl72 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl72 width=109 style='border-top:none;border-left:none;width:82pt'>○</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl72 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl136 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl150 width=93 style='border-top:none;width:70pt'>○</td>
+  <td class=xl151 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td colspan=2 height=60 class=xl68 width=74 style='height:45.0pt;border-left:
+  none;width:55pt'>8</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'><a
+  href="https://www.witpress.com/Secure/elibrary/papers/CR04/CR04014FU.pdf"><span
+  style='color:black;font-size:11.0pt;text-decoration:none'><font class="font7">(Hoogendoorn
+  &amp; Daamen)<span style='mso-spacerun:yes'> </span></font></span></a></td>
+  <td class=xl74 width=105 style='border-top:none;border-left:none;width:79pt'>√<br>
+    </td>
+  <td class=xl71 width=136 style='border-top:none;border-left:none;width:102pt'>√<br>
+    (Design Principle 19)</td>
+  <td class=xl72 width=111 style='border-top:none;border-left:none;width:83pt'>○</td>
+  <td class=xl72 width=132 style='border-top:none;border-left:none;width:99pt'>○</td>
+  <td class=xl72 width=85 style='border-top:none;border-left:none;width:64pt'>○</td>
+  <td class=xl72 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl72 width=124 style='border-top:none;border-left:none;width:93pt'>○</td>
+  <td class=xl72 width=104 style='border-top:none;border-left:none;width:78pt'>○</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl72 width=103 style='border-top:none;border-left:none;width:77pt'>○</td>
+  <td class=xl149 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl70 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl71 width=123 style='border-top:none;border-left:none;width:92pt'>√<br>
+    (Design Principles 18, 19)</td>
+  <td class=xl72 width=91 style='border-top:none;border-left:none;width:68pt'>○</td>
+  <td class=xl72 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl72 width=109 style='border-top:none;border-left:none;width:82pt'>○</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl72 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl136 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl150 width=93 style='border-top:none;width:70pt'>○</td>
+  <td class=xl151 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=100 style='height:75.0pt'>
+  <td colspan=2 height=100 class=xl68 width=74 style='height:75.0pt;border-left:
+  none;width:55pt'>9</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'><a href="https://doi.org/10.1016/j.ssci.2020.104695"><span
+  style='color:black;font-size:11.0pt;text-decoration:none'><font class="font7">(Jin
+  et al., 2020)</font></span></a></td>
+  <td class=xl74 width=105 style='border-top:none;border-left:none;width:79pt'>√<br>
+    </td>
+  <td class=xl71 width=136 style='border-top:none;border-left:none;width:102pt'>√<br>
+    (Flow regulation)</td>
+  <td class=xl72 width=111 style='border-top:none;border-left:none;width:83pt'>○</td>
+  <td class=xl72 width=132 style='border-top:none;border-left:none;width:99pt'>○</td>
+  <td class=xl72 width=85 style='border-top:none;border-left:none;width:64pt'>○</td>
+  <td class=xl72 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl71 width=124 style='border-top:none;border-left:none;width:93pt'>√<br>
+    (Flow regulation)</td>
+  <td class=xl71 width=104 style='border-top:none;border-left:none;width:78pt'>√<br>
+    (Flow regulation, with longer distance)</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl72 width=103 style='border-top:none;border-left:none;width:77pt'>○</td>
+  <td class=xl149 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl70 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl71 width=123 style='border-top:none;border-left:none;width:92pt'>√<br>
+    (Design Principles 11, 18)</td>
+  <td class=xl72 width=91 style='border-top:none;border-left:none;width:68pt'>○</td>
+  <td class=xl72 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl71 width=109 style='border-top:none;border-left:none;width:82pt'>√<br>
+    (Guide pedestrian for more even distribution)</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl72 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl136 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl150 width=93 style='border-top:none;width:70pt'>○</td>
+  <td class=xl151 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=80 style='height:60.0pt'>
+  <td colspan=2 height=80 class=xl68 width=74 style='height:60.0pt;border-left:
+  none;width:55pt'>10</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'><a
+  href="https://www.domusweb.it/en/speciali/domus-air/2022/urban-mobility-in-2040.html"><span
+  style='color:black;font-size:11.0pt;text-decoration:none'><font class="font7">(Arne,
+  2022)</font></span></a></td>
+  <td class=xl74 width=105 style='border-top:none;border-left:none;width:79pt'>—</td>
+  <td class=xl71 width=136 style='border-top:none;border-left:none;width:102pt'>—</td>
+  <td class=xl71 width=111 style='border-top:none;border-left:none;width:83pt'>—</td>
+  <td class=xl71 width=132 style='border-top:none;border-left:none;width:99pt'>—</td>
+  <td class=xl71 width=85 style='border-top:none;border-left:none;width:64pt'>—</td>
+  <td class=xl71 width=96 style='border-top:none;border-left:none;width:72pt'>—</td>
+  <td class=xl71 width=124 style='border-top:none;border-left:none;width:93pt'>—</td>
+  <td class=xl71 width=104 style='border-top:none;border-left:none;width:78pt'>—</td>
+  <td class=xl71 width=88 style='border-top:none;border-left:none;width:66pt'>—</td>
+  <td class=xl71 width=103 style='border-top:none;border-left:none;width:77pt'>—</td>
+  <td class=xl73 width=93 style='border-top:none;border-left:none;width:70pt'>—</td>
+  <td class=xl74 width=101 style='border-top:none;border-left:none;width:76pt'>—</td>
+  <td class=xl71 width=123 style='border-top:none;border-left:none;width:92pt'>—</td>
+  <td class=xl71 width=91 style='border-top:none;border-left:none;width:68pt'>√<br>
+    (Paths of passengers)</td>
+  <td class=xl71 width=101 style='border-top:none;border-left:none;width:76pt'>—</td>
+  <td class=xl71 width=109 style='border-top:none;border-left:none;width:82pt'>—</td>
+  <td class=xl71 width=88 style='border-top:none;border-left:none;width:66pt'>—</td>
+  <td class=xl71 width=96 style='border-top:none;border-left:none;width:72pt'>—</td>
+  <td class=xl75 width=93 style='border-top:none;border-left:none;width:70pt'>—</td>
+  <td class=xl153 width=93 style='border-top:none;width:70pt'>—</td>
+  <td class=xl154 width=93 style='border-top:none;width:70pt'>—</td>
+ </tr>
+ <tr height=120 style='height:90.0pt'>
+  <td colspan=2 height=120 class=xl68 width=74 style='height:90.0pt;border-left:
+  none;width:55pt'>11</td>
+  <td class=xl78 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'><a href="https://doi.org/10.1108/IJEFM-10-2020-0063"><span
+  style='color:black;font-size:11.0pt;text-decoration:none'><font class="font7">(Smith
+  et al., 2021)</font></span></a></td>
+  <td class=xl70 width=105 style='border-top:none;border-left:none;width:79pt'>○</td>
+  <td class=xl72 width=136 style='border-top:none;border-left:none;width:102pt'>○</td>
+  <td class=xl72 width=111 style='border-top:none;border-left:none;width:83pt'>○</td>
+  <td class=xl71 width=132 style='border-top:none;border-left:none;width:99pt'>√<br>
+    (Add Event)</td>
+  <td class=xl71 width=85 style='border-top:none;border-left:none;width:64pt'>√<br>
+    (Add Event)</td>
+  <td class=xl72 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl72 width=124 style='border-top:none;border-left:none;width:93pt'>○</td>
+  <td class=xl72 width=104 style='border-top:none;border-left:none;width:78pt'>○</td>
+  <td class=xl72 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl72 width=103 style='border-top:none;border-left:none;width:77pt'>○</td>
+  <td class=xl73 width=93 style='border-top:none;border-left:none;width:70pt'>√<br>
+    (Add Event)</td>
+  <td class=xl70 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl136 width=123 style='border-top:none;border-left:none;width:92pt'>○</td>
+  <td class=xl155 width=91 style='border-top:none;width:68pt'>○</td>
+  <td class=xl72 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl71 width=109 style='border-top:none;border-left:none;width:82pt'>√<br>
+    (Event typology)</td>
+  <td class=xl71 width=88 style='border-top:none;border-left:none;width:66pt'>√<br>
+    (Relate the Event Typology to Design Principles)</td>
+  <td class=xl71 width=96 style='border-top:none;border-left:none;width:72pt'>√<br>
+    (Event typology)</td>
+  <td class=xl71 width=93 style='border-top:none;border-left:none;width:70pt'>√<br>
+    (Relate the Event Typology to Design Principles)</td>
+  <td class=xl136 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl151 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=80 style='height:60.0pt'>
+  <td colspan=2 height=80 class=xl205 width=74 style='height:60.0pt;border-left:
+  none;width:55pt'>12</td>
+  <td class=xl112 dir=LTR width=197 style='border-top:none;border-left:none;
+  width:148pt'><a
+  href="https://www.webofscience.com/wos/woscc/full-record/WOS:000482783600045"><span
+  style='color:black;font-size:11.0pt;text-decoration:none'><font class="font7">(Ivers,
+  2018)</font></span></a></td>
+  <td class=xl156 width=105 style='border-top:none;border-left:none;width:79pt'>○</td>
+  <td class=xl141 width=136 style='border-top:none;border-left:none;width:102pt'>○</td>
+  <td class=xl139 width=111 style='border-top:none;border-left:none;width:83pt'>√<br>
+    </td>
+  <td class=xl139 width=132 style='border-top:none;border-left:none;width:99pt'>√<br>
+    (Design Principles 16, 17, 26)</td>
+  <td class=xl141 width=85 style='border-top:none;border-left:none;width:64pt'>○</td>
+  <td class=xl141 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl141 width=124 style='border-top:none;border-left:none;width:93pt'>○</td>
+  <td class=xl141 width=104 style='border-top:none;border-left:none;width:78pt'>○</td>
+  <td class=xl141 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl141 width=103 style='border-top:none;border-left:none;width:77pt'>○</td>
+  <td class=xl140 width=93 style='border-top:none;border-left:none;width:70pt'>√<br>
+    (Design Principles 16, 17, 26)</td>
+  <td class=xl156 width=101 style='border-top:none;border-left:none;width:76pt'>○</td>
+  <td class=xl139 width=123 style='border-top:none;border-left:none;width:92pt'>√<br>
+    (Design Principles 16, 17, 26)</td>
+  <td class=xl141 width=91 style='border-top:none;border-left:none;width:68pt'>○</td>
+  <td class=xl139 width=101 style='border-top:none;border-left:none;width:76pt'>√<br>
+    (Design Principles1, 12)</td>
+  <td class=xl141 width=109 style='border-top:none;border-left:none;width:82pt'>○</td>
+  <td class=xl141 width=88 style='border-top:none;border-left:none;width:66pt'>○</td>
+  <td class=xl141 width=96 style='border-top:none;border-left:none;width:72pt'>○</td>
+  <td class=xl157 width=93 style='border-top:none;border-left:none;width:70pt'>○</td>
+  <td class=xl158 width=93 style='border-top:none;width:70pt'>○</td>
+  <td class=xl159 width=93 style='border-top:none;width:70pt'>○</td>
+ </tr>
+ <tr height=23 style='mso-height-source:userset;height:17.75pt'>
+  <td colspan=4 height=23 class=xl200 width=379 style='height:17.75pt;
+  width:284pt'>&nbsp;</td>
+  <td class=xl160 width=105 style='border-top:none;width:79pt'>&nbsp;</td>
+  <td class=xl160 width=136 style='border-top:none;width:102pt'>&nbsp;</td>
+  <td class=xl160 width=111 style='border-top:none;width:83pt'>&nbsp;</td>
+  <td class=xl160 width=132 style='border-top:none;width:99pt'>&nbsp;</td>
+  <td class=xl160 width=85 style='border-top:none;width:64pt'>&nbsp;</td>
+  <td class=xl160 width=96 style='border-top:none;width:72pt'>&nbsp;</td>
+  <td class=xl160 width=124 style='border-top:none;width:93pt'>&nbsp;</td>
+  <td class=xl160 width=104 style='border-top:none;width:78pt'>&nbsp;</td>
+  <td class=xl160 width=88 style='border-top:none;width:66pt'>&nbsp;</td>
+  <td class=xl160 width=103 style='border-top:none;width:77pt'>&nbsp;</td>
+  <td class=xl160 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl160 width=101 style='border-top:none;width:76pt'>&nbsp;</td>
+  <td class=xl160 width=123 style='border-top:none;width:92pt'>&nbsp;</td>
+  <td class=xl160 width=91 style='border-top:none;width:68pt'>&nbsp;</td>
+  <td class=xl160 width=101 style='border-top:none;width:76pt'>&nbsp;</td>
+  <td class=xl160 width=109 style='border-top:none;width:82pt'>&nbsp;</td>
+  <td class=xl160 width=88 style='border-top:none;width:66pt'>&nbsp;</td>
+  <td class=xl160 width=96 style='border-top:none;width:72pt'>&nbsp;</td>
+  <td class=xl160 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl160 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+  <td class=xl160 width=93 style='border-top:none;width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=21 style='mso-height-source:userset;height:16.75pt'>
+  <td colspan=4 height=21 class=xl222 width=379 style='height:16.75pt;
+  width:284pt'>Legend:</td>
+  <td colspan=2 class=xl161 width=241 style='width:181pt'>Abbreviations of
+  stations:</td>
+  <td class=xl162 width=111 style='width:83pt'>&nbsp;</td>
+  <td class=xl161 width=132 style='width:99pt'>References:</td>
+  <td class=xl162 width=85 style='width:64pt'>&nbsp;</td>
+  <td class=xl162 width=96 style='width:72pt'>&nbsp;</td>
+  <td class=xl162 width=124 style='width:93pt'>&nbsp;</td>
+  <td class=xl162 width=104 style='width:78pt'>&nbsp;</td>
+  <td class=xl162 width=88 style='width:66pt'>&nbsp;</td>
+  <td class=xl162 width=103 style='width:77pt'>&nbsp;</td>
+  <td class=xl162 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl162 width=101 style='width:76pt'>&nbsp;</td>
+  <td class=xl162 width=123 style='width:92pt'>&nbsp;</td>
+  <td class=xl162 width=91 style='width:68pt'>&nbsp;</td>
+  <td class=xl163 width=101 style='width:76pt'>&nbsp;</td>
+  <td class=xl163 width=109 style='width:82pt'>&nbsp;</td>
+  <td class=xl163 width=88 style='width:66pt'>&nbsp;</td>
+  <td class=xl163 width=96 style='width:72pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=37 style='mso-height-source:userset;height:28.0pt'>
+  <td height=37 class=xl180 width=108 style='height:28.0pt;width:81pt'>&nbsp;</td>
+  <td colspan=3 class=xl210 width=271 style='border-right:.5pt solid black;
+  border-left:none;width:203pt'>Initial literature/cases/comparisons of cases</td>
+  <td colspan=3 rowspan=13 class=xl224 dir=LTR width=352 style='width:264pt'>Beijing
+  West —<span style='mso-spacerun:yes'>  </span>Beijing West Railway
+  Station<br>
+    Beijing South — Beijing South Railway Station<br>
+    Shanghai — Shanghai Railway Station<br>
+    Rotterdam — Rotterdam Central Station<br>
+    Utrecht — Utrecht Central Station<br>
+    Bijlmer — Bijlmer Railway Station<br>
+    Zandvoort — Zandvoort Railway Station<br>
+    Guangzhou — Guangzhou Railway Station<br>
+    Zandvoort — Zandvoort Railway Station<br>
+    Utrecht new — the new Utrecht Central Station<br>
+    Utrecht old — the old Utrecht Central Station<br>
+    Rotterdam new — the new Rotterdam Central Station<br>
+    Rotterdam old — the old Rotterdam Central Station<br>
+    </td>
+  <td colspan=11 rowspan=13 class=xl226 dir=LTR width=1140 style='width:855pt'><a
+  href="https://doi.org/10.1080/13574809.2020.1814133"><span style='color:black;
+  font-size:11.0pt;text-decoration:none'><font class="font5">Van Acker, M.,
+  &amp; Triggianese, M. (2021). The spatial impact of train stations on small
+  and medium-sized European cities and their contemporary urban design
+  challenges. </font><font class="font8">Journal of Urban Design</font><font
+  class="font5">, </font><font class="font8">26</font><font class="font5">(1),
+  38–58. Scopus. </font><font class="font9">https://doi.org/10.1080/13574809.2020.1814133</font><font
+  class="font5"><br>
+    </font><font class="font5">Qi, G., &amp; Lu, G. (2019). Analysis of the
+  Station-City Synergetic Development Pattern Based on Spatial Coupling Mode in
+  Station Field (In Chinese). </font><font class="font8">Architecture Technique</font><font
+  class="font5">, </font><font class="font8">07</font><font class="font5">,
+  30–35.<br>
+    </font><font class="font5">Ardeshiri, M., Esteghlal, A., &amp; Etesam, I.
+  (2016). Explaining the Concept of Flexibility in Urban Spaces. </font><font
+  class="font8">International Journal of Applied Arts Studies (IJAPAS)</font><font
+  class="font5">, </font><font class="font8">1</font><font class="font5">(1). </font><font
+  class="font9">http://ijapas.ir/index.php/ijapas/article/view/33</font><font
+  class="font5"><br>
+    </font><font class="font5">Geraedts, R. P. (2008). Design for change;
+  flexibility key performance indicators. </font><font class="font8">1st
+  International Conference on Industrialised, Integrated, Intelligent
+  Construction (I3CON)</font><font class="font5">, 11.<br>
+    </font><font class="font5">Hoppenbrouwer, E., &amp; Louw, E. (2005).
+  Mixed-use development: Theory and practice in Amsterdam’s Eastern Docklands. </font><font
+  class="font8">European Planning Studies</font><font class="font5">, </font><font
+  class="font8">13</font><font class="font5">(7), 967–983. </font><font
+  class="font9">https://doi.org/10.1080/09654310500242048</font><font
+  class="font5"><br>
+    </font><font class="font5">Kelpe, J. A. (2007). </font><font class="font8">THE
+  CITY’S LIVING ROOM: FLEXIBILITY AND MULTIPLICITY IN URBAN PUBLIC SPACE</font><font
+  class="font5"> [University of Cincinnati]. </font><font class="font9">https://etd.ohiolink.edu/apexprod/rws_olink/r/1501/10?clear=10&amp;p10_accession_num=ucin1178910196</font><font
+  class="font5"><br>
+    </font><font class="font5">Smith, T. (2023). </font><font class="font8">Ship
+  The Stadium: Transforming Event Spaces: Embracing Temporality and
+  Multifunctionality Through Modular and Circular Design</font><font
+  class="font5">. </font><font class="font9">https://repository.tudelft.nl/islandora/object/uuid%3A80db046d-13f3-49a1-bc70-e87f5d3c5575</font><font
+  class="font8"><br>
+    </font><font class="font5">Hoogendoorn, S. P., &amp; Daamen, W. (2004).
+  Design assessment of Lisbon transfer stations using microscopic pedestrian
+  simulation. </font><font class="font8">Computers in Railways IX</font><font
+  class="font5">.<br>
+    </font><font class="font5">Jin, B., Wang, J., Wang, Y., Gu, Y., &amp; Wang,
+  Z. (2020). Temporal and spatial distribution of pedestrians in subway
+  evacuation under node failure by multi-hazards. </font><font class="font8">Safety
+  Science</font><font class="font5">, </font><font class="font8">127</font><font
+  class="font5">, 104695. </font><font class="font9">https://doi.org/10.1016/j.ssci.2020.104695</font><font
+  class="font5"><br>
+    </font><font class="font5">Arne, L. (2022, July 14). </font><font
+  class="font8">Door-to-door public transportation proposed by Mecanoo</font><font
+  class="font5">. </font><font class="font9">https://www.domusweb.it/en/speciali/domus-air/2022/urban-mobility-in-2040.html</font><font
+  class="font5"><br>
+    </font><font class="font5">Smith, A., Vodicka, G., Colombo, A., K, L.,
+  McGillivray, D., &amp; Quinn, B. (2021). Staging city events in public
+  spaces: An urban design perspective. </font><font class="font8">International
+  Journal of Event and Festival Management</font><font class="font5">, </font><font
+  class="font8">12</font><font class="font5">, Article 2. </font><font
+  class="font9">https://doi.org/10.1108/IJEFM-10-2020-0063</font><font
+  class="font5"><br>
+    </font><font class="font5">Ivers, B. C. (2018). </font><font class="font8">Staging
+  Urban Landscapes: The Activation and Curation of Flexible Public Spaces</font><font
+  class="font5"> (pp. 1–303). Birkhauser Verlag Ag. </font><font class="font9">https://www.webofscience.com/wos/woscc/full-record/WOS:000482783600045</font></span></a></td>
+  <td class=xl164 width=101 style='width:76pt'>&nbsp;</td>
+  <td class=xl163 width=109 style='width:82pt'>&nbsp;</td>
+  <td class=xl163 width=88 style='width:66pt'>&nbsp;</td>
+  <td class=xl163 width=96 style='width:72pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=37 style='mso-height-source:userset;height:28.0pt'>
+  <td height=37 class=xl181 width=108 style='height:28.0pt;border-top:none;
+  width:81pt'>&nbsp;</td>
+  <td colspan=3 class=xl207 width=271 style='border-right:.5pt solid black;
+  border-left:none;width:203pt'>(Cases/comparisons that) have not been examined</td>
+  <td class=xl164 width=101 style='width:76pt'>&nbsp;</td>
+  <td class=xl163 width=109 style='width:82pt'>&nbsp;</td>
+  <td class=xl163 width=88 style='width:66pt'>&nbsp;</td>
+  <td class=xl163 width=96 style='width:72pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=37 style='mso-height-source:userset;height:28.0pt'>
+  <td height=37 class=xl182 width=108 style='height:28.0pt;border-top:none;
+  width:81pt'>—</td>
+  <td colspan=3 class=xl207 width=271 style='border-right:.5pt solid black;
+  border-left:none;width:203pt'>Not relevant regarding this aspect<br>
+    </td>
+  <td class=xl164 width=101 style='width:76pt'>&nbsp;</td>
+  <td class=xl163 width=109 style='width:82pt'>&nbsp;</td>
+  <td class=xl163 width=88 style='width:66pt'>&nbsp;</td>
+  <td class=xl163 width=96 style='width:72pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=37 style='mso-height-source:userset;height:28.0pt'>
+  <td height=37 class=xl182 width=108 style='height:28.0pt;border-top:none;
+  width:81pt'>○</td>
+  <td colspan=3 class=xl207 width=271 style='border-right:.5pt solid black;
+  border-left:none;width:203pt'>Examined but no relevant findings<br>
+    </td>
+  <td class=xl164 width=101 style='width:76pt'>&nbsp;</td>
+  <td class=xl163 width=109 style='width:82pt'>&nbsp;</td>
+  <td class=xl163 width=88 style='width:66pt'>&nbsp;</td>
+  <td class=xl163 width=96 style='width:72pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=37 style='mso-height-source:userset;height:28.0pt'>
+  <td height=37 class=xl182 width=108 style='height:28.0pt;border-top:none;
+  width:81pt'>√</td>
+  <td colspan=3 class=xl207 width=271 style='border-right:.5pt solid black;
+  border-left:none;width:203pt'>Has relevant findings<br>
+    </td>
+  <td class=xl164 width=101 style='width:76pt'>&nbsp;</td>
+  <td class=xl163 width=109 style='width:82pt'>&nbsp;</td>
+  <td class=xl163 width=88 style='width:66pt'>&nbsp;</td>
+  <td class=xl163 width=96 style='width:72pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=37 style='mso-height-source:userset;height:28.0pt'>
+  <td height=37 class=xl182 width=108 style='height:28.0pt;border-top:none;
+  width:81pt'>√+</td>
+  <td colspan=3 class=xl207 width=271 style='border-right:.5pt solid black;
+  border-left:none;width:203pt'>Has relevant and positive findings<br>
+    </td>
+  <td class=xl164 width=101 style='width:76pt'>&nbsp;</td>
+  <td class=xl163 width=109 style='width:82pt'>&nbsp;</td>
+  <td class=xl163 width=88 style='width:66pt'>&nbsp;</td>
+  <td class=xl163 width=96 style='width:72pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=37 style='mso-height-source:userset;height:28.0pt'>
+  <td height=37 class=xl182 width=108 style='height:28.0pt;border-top:none;
+  width:81pt'>√−</td>
+  <td colspan=3 class=xl207 width=271 style='border-right:.5pt solid black;
+  border-left:none;width:203pt'>Has relevant and negative findings<br>
+    </td>
+  <td class=xl164 width=101 style='width:76pt'>&nbsp;</td>
+  <td class=xl163 width=109 style='width:82pt'>&nbsp;</td>
+  <td class=xl163 width=88 style='width:66pt'>&nbsp;</td>
+  <td class=xl163 width=96 style='width:72pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=37 style='mso-height-source:userset;height:28.0pt'>
+  <td height=37 class=xl182 width=108 style='height:28.0pt;border-top:none;
+  width:81pt'>√+ +</td>
+  <td colspan=3 class=xl207 width=271 style='border-right:.5pt solid black;
+  border-left:none;width:203pt'>In the comparison, has (relevant,) positive and
+  positive findings</td>
+  <td class=xl164 width=101 style='width:76pt'>&nbsp;</td>
+  <td class=xl163 width=109 style='width:82pt'>&nbsp;</td>
+  <td class=xl163 width=88 style='width:66pt'>&nbsp;</td>
+  <td class=xl163 width=96 style='width:72pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=37 style='mso-height-source:userset;height:28.0pt'>
+  <td height=37 class=xl182 width=108 style='height:28.0pt;border-top:none;
+  width:81pt'>√+ −</td>
+  <td colspan=3 class=xl207 width=271 style='border-right:.5pt solid black;
+  border-left:none;width:203pt'>In the comparison, has (relevant,) positive vs
+  negative findings</td>
+  <td class=xl164 width=101 style='width:76pt'>&nbsp;</td>
+  <td class=xl163 width=109 style='width:82pt'>&nbsp;</td>
+  <td class=xl163 width=88 style='width:66pt'>&nbsp;</td>
+  <td class=xl163 width=96 style='width:72pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=37 style='mso-height-source:userset;height:28.0pt'>
+  <td height=37 class=xl182 width=108 style='height:28.0pt;border-top:none;
+  width:81pt'>√− +</td>
+  <td colspan=3 class=xl207 width=271 style='border-right:.5pt solid black;
+  border-left:none;width:203pt'>In the comparison, has (relevant,) negative vs
+  positive findings</td>
+  <td class=xl164 width=101 style='width:76pt'>&nbsp;</td>
+  <td class=xl163 width=109 style='width:82pt'>&nbsp;</td>
+  <td class=xl163 width=88 style='width:66pt'>&nbsp;</td>
+  <td class=xl163 width=96 style='width:72pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=37 style='mso-height-source:userset;height:28.0pt'>
+  <td height=37 class=xl182 width=108 style='height:28.0pt;border-top:none;
+  width:81pt'>√− −</td>
+  <td colspan=3 class=xl207 width=271 style='border-right:.5pt solid black;
+  border-left:none;width:203pt'>In the comparison, has (relevant,) negative and
+  negative findings</td>
+  <td class=xl164 width=101 style='width:76pt'>&nbsp;</td>
+  <td class=xl163 width=109 style='width:82pt'>&nbsp;</td>
+  <td class=xl163 width=88 style='width:66pt'>&nbsp;</td>
+  <td class=xl163 width=96 style='width:72pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=37 style='mso-height-source:userset;height:28.0pt'>
+  <td height=37 class=xl182 width=108 style='height:28.0pt;border-top:none;
+  width:81pt'>√ ○ +</td>
+  <td colspan=3 class=xl207 width=271 style='border-right:.5pt solid black;
+  border-left:none;width:203pt'>In the comparison, has (relevant,) non
+  significant vs positive findings</td>
+  <td class=xl164 width=101 style='width:76pt'>&nbsp;</td>
+  <td class=xl163 width=109 style='width:82pt'>&nbsp;</td>
+  <td class=xl163 width=88 style='width:66pt'>&nbsp;</td>
+  <td class=xl163 width=96 style='width:72pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=53 style='mso-height-source:userset;height:40.0pt'>
+  <td height=53 class=xl182 width=108 style='height:40.0pt;border-top:none;
+  width:81pt'><font class="font10">√− +<br>
+    </font><font class="font5">(Text in the bracket)</font></td>
+  <td colspan=3 class=xl227 width=271 style='border-right:.5pt solid black;
+  border-left:none;width:203pt'><br>
+    Relevant content derived from this case/literature</td>
+  <td class=xl164 width=101 style='width:76pt'>&nbsp;</td>
+  <td class=xl163 width=109 style='width:82pt'>&nbsp;</td>
+  <td class=xl163 width=88 style='width:66pt'>&nbsp;</td>
+  <td class=xl163 width=96 style='width:72pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.75pt'>
+  <td height=20 class=xl165 width=108 style='height:15.75pt;width:81pt'>&nbsp;</td>
+  <td colspan=3 class=xl213 width=271 style='width:203pt'>&nbsp;</td>
+  <td class=xl165 width=105 style='width:79pt'>&nbsp;</td>
+  <td class=xl165 width=136 style='width:102pt'>&nbsp;</td>
+  <td class=xl165 width=111 style='width:83pt'>&nbsp;</td>
+  <td class=xl165 width=132 style='width:99pt'>&nbsp;</td>
+  <td class=xl165 width=85 style='width:64pt'>&nbsp;</td>
+  <td class=xl165 width=96 style='width:72pt'>&nbsp;</td>
+  <td class=xl165 width=124 style='width:93pt'>&nbsp;</td>
+  <td class=xl165 width=104 style='width:78pt'>&nbsp;</td>
+  <td class=xl165 width=88 style='width:66pt'>&nbsp;</td>
+  <td class=xl165 width=103 style='width:77pt'>&nbsp;</td>
+  <td class=xl165 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl165 width=101 style='width:76pt'>&nbsp;</td>
+  <td class=xl165 width=123 style='width:92pt'>&nbsp;</td>
+  <td class=xl165 width=91 style='width:68pt'>&nbsp;</td>
+  <td class=xl163 width=101 style='width:76pt'>&nbsp;</td>
+  <td class=xl163 width=109 style='width:82pt'>&nbsp;</td>
+  <td class=xl163 width=88 style='width:66pt'>&nbsp;</td>
+  <td class=xl163 width=96 style='width:72pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.75pt'>
+  <td height=20 class=xl163 width=108 style='height:15.75pt;width:81pt'>&nbsp;</td>
+  <td colspan=3 class=xl215 width=271 style='width:203pt'>&nbsp;</td>
+  <td class=xl163 width=105 style='width:79pt'>&nbsp;</td>
+  <td class=xl163 width=136 style='width:102pt'>&nbsp;</td>
+  <td class=xl163 width=111 style='width:83pt'>&nbsp;</td>
+  <td class=xl163 width=132 style='width:99pt'>&nbsp;</td>
+  <td class=xl163 width=85 style='width:64pt'>&nbsp;</td>
+  <td class=xl163 width=96 style='width:72pt'>&nbsp;</td>
+  <td class=xl163 width=124 style='width:93pt'>&nbsp;</td>
+  <td class=xl163 width=104 style='width:78pt'>&nbsp;</td>
+  <td class=xl163 width=88 style='width:66pt'>&nbsp;</td>
+  <td class=xl163 width=103 style='width:77pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=101 style='width:76pt'>&nbsp;</td>
+  <td class=xl163 width=123 style='width:92pt'>&nbsp;</td>
+  <td class=xl163 width=91 style='width:68pt'>&nbsp;</td>
+  <td class=xl163 width=101 style='width:76pt'>&nbsp;</td>
+  <td class=xl163 width=109 style='width:82pt'>&nbsp;</td>
+  <td class=xl163 width=88 style='width:66pt'>&nbsp;</td>
+  <td class=xl163 width=96 style='width:72pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+  <td class=xl163 width=93 style='width:70pt'>&nbsp;</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=108 style='width:81pt'></td>
+  <td width=51 style='width:38pt'></td>
+  <td width=23 style='width:17pt'></td>
+  <td width=197 style='width:148pt'></td>
+  <td width=105 style='width:79pt'></td>
+  <td width=136 style='width:102pt'></td>
+  <td width=111 style='width:83pt'></td>
+  <td width=132 style='width:99pt'></td>
+  <td width=85 style='width:64pt'></td>
+  <td width=96 style='width:72pt'></td>
+  <td width=124 style='width:93pt'></td>
+  <td width=104 style='width:78pt'></td>
+  <td width=88 style='width:66pt'></td>
+  <td width=103 style='width:77pt'></td>
+  <td width=93 style='width:70pt'></td>
+  <td width=101 style='width:76pt'></td>
+  <td width=123 style='width:92pt'></td>
+  <td width=91 style='width:68pt'></td>
+  <td width=101 style='width:76pt'></td>
+  <td width=109 style='width:82pt'></td>
+  <td width=88 style='width:66pt'></td>
+  <td width=96 style='width:72pt'></td>
+  <td width=93 style='width:70pt'></td>
+  <td width=93 style='width:70pt'></td>
+  <td width=93 style='width:70pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+
+<!----------------------------->
+<!--END OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD-->
+<!----------------------------->
+</body>
+
+</html>
