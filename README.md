@@ -3,7 +3,9 @@
 
 This repository contains contents for **Paper 3** (for submission).
 
-[The **Main Article**](https://github.com/1309928130/Paper3_SupplementaryMaterials/blob/main/Main%20Article.pdf)
+[The **Main Article** (The full descriptions)](https://github.com/1309928130/Paper3_SupplementaryMaterials/blob/main/Main%20Article.pdf)
+
+[The **Main Article** (The brief version for the journal submission) (In progress)]()
 
 [**Supplementary Materials**](https://github.com/1309928130/Paper3_SupplementaryMaterials/blob/main/Supplementary%20Materials%20-%20Detailed%20Information.pdf)
 
