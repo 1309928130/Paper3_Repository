@@ -3,11 +3,13 @@
 
 This repository contains contents for **Paper 3** (for submission).
 
-[The **Main Article** (The full version)](https://github.com/1309928130/Paper3_SupplementaryMaterials/blob/main/Main%20Article.pdf)
+The **Main Article**
 
-[The **Main Article** (The brief version for the journal submission) (In progress)]()
+- [The **full** version](https://github.com/1309928130/Paper3_SupplementaryMaterials/blob/main/Main%20Article.pdf)
 
-[**Supplementary Materials**](https://github.com/1309928130/Paper3_SupplementaryMaterials/blob/main/Supplementary%20Materials%20-%20Detailed%20Information.pdf)
+- [The **brief** version for journal submission (In progress)]()
+
+**Supplementary Materials**
 
  - [**The Website** displaying all the design principles (can be clicked to view from different **perspectives**)](http://c1309928130.pythonanywhere.com/?dimension=All)
 
