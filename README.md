@@ -7,7 +7,7 @@ The **Main Article**
 
 - [The **full** version](https://github.com/1309928130/Paper3_SupplementaryMaterials/blob/main/Main%20Article.pdf)
 
-- [The **brief** version for journal submission (In progress)]()
+- [The **brief** version for journal submission](https://github.com/1309928130/Paper3_Repository/blob/main/Paper3_forSustainableCities_9Kwords%20(9).pdf)
 
 **Supplementary Materials**
 
