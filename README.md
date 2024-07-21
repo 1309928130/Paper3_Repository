@@ -2,7 +2,7 @@
 
 
 This repository contains contents for **Paper 3** (for submission).
-[hi](http://c1309928130.pythonanywhere.com/?dimension=All)
+
 The **Main Article**
 
 - [The **full** version](https://github.com/1309928130/Paper3_SupplementaryMaterials/blob/main/Main%20Article.pdf)
