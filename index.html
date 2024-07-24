@@ -39,6 +39,13 @@
         a:hover {
             text-decoration: underline;
         }
+
+        .comments-container {
+            width: 100%; /* Or set a specific width */
+            text-align: left; /* Aligns content to the left */
+            margin: 0 auto; /* Center the container if you want */
+        }
+        
     </style>
 </head>
 <body>
@@ -64,14 +71,16 @@
     <p><a href="http://c1309928130.pythonanywhere.com/?dimension=All"><img src="websnap1_copy.png" alt="websnap1_copy" style="width: 80%;"></a></p>
 
     <h3>Comments</h3>
-    <!-- Utterances comment section -->
-    <script src="https://utteranc.es/client.js"
-            repo="1309928130/Paper3_Repository"
-            issue-term="pathname"
-            label="Comment"
-            theme="github-light"
-            crossorigin="anonymous"
-            async>
-    </script>
+    <div class="comments-container">
+        <!-- Utterances comment section -->
+        <script src="https://utteranc.es/client.js"
+                repo="1309928130/Paper3_Repository"
+                issue-term="pathname"
+                label="Comment"
+                theme="github-light"
+                crossorigin="anonymous"
+                async>
+        </script>
+    </div>
 </body>
 </html>
