@@ -41,9 +41,16 @@
         }
 
         .comments-container {
-            width: 100%; /* Or set a specific width */
-            text-align: left; /* Aligns content to the left */
-            margin: 0 auto; /* Center the container if you want */
+            width: 100%; /* Or specify a fixed width */
+            text-align: left; /* Aligns content within the container to the left */
+            margin: 0; /* Reset margin if needed */
+            padding: 0; /* Reset padding if needed */
+        }
+        
+        /* Optional: Ensure the iframe itself doesn’t have additional styles */
+        .comments-container iframe {
+            display: block; /* Ensures iframe behaves as a block-level element */
+            margin: 0; /* Reset margin if needed */
         }
         
     </style>
@@ -70,7 +77,7 @@
 
     <p><a href="http://c1309928130.pythonanywhere.com/?dimension=All"><img src="websnap1_copy.png" alt="websnap1_copy" style="width: 80%;"></a></p>
 
-    <h3>Comments</h3>
+<!--     <h3>Comments</h3> -->
     <div class="comments-container">
         <!-- Utterances comment section -->
         <script src="https://utteranc.es/client.js"
