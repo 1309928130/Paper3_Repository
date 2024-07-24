@@ -35,3 +35,14 @@ The **Main Article**
         crossorigin="anonymous"
         async>
 </script>
+
+
+<!-- Utterances comment section -->
+<script src="https://utteranc.es/client.js"
+        repo="1309928130/Paper3_Repository"
+        issue-term="pathname"
+        label="Comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
