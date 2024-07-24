@@ -49,8 +49,11 @@
         
         /* Optional: Ensure the iframe itself doesn’t have additional styles */
         .comments-container iframe {
-            display: block; /* Ensures iframe behaves as a block-level element */
-            margin: 0; /* Reset margin if needed */
+            margin: 0 !important; /* Force margin to zero */
+            padding: 0 !important; /* Force padding to zero */
+            display: block; /* Ensure block display */
+            width: 100%; /* Make sure it uses full width if desired */
+            box-sizing: border-box; /* Include padding and border in element's total width and height */
         }
         
     </style>
